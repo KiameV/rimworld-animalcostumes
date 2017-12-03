@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Apparel_AnimalCostumeUndergarment</defName>
+		<label>Undergarment</label>
+		<description>An undergarment for wearing under an imbued animal costume.</description>
+		<graphicData>
+			<texPath>Apparel/AnimalCostumes/Undergarment/AnimalCostumeUndergarment</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<researchPrerequisite>AnimalCostumes</researchPrerequisite>
+		</recipeMaker>
+		<techLevel>Industrial</techLevel>
+		<costStuffCount>10</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>0.01</Mass>
+			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+			<ComfyTemperatureMin>-2</ComfyTemperatureMin>
+			<Insulation_Cold>-2</Insulation_Cold>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/AnimalCostumes/Undergarment/AnimalCostumeUndergarment</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>Tribal</li>
+				<li>Outlander</li>
+				<li>TribalTrader</li>
+				<li>OutlanderTrader</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<generateCommonality>6</generateCommonality>
+	</ThingDef>
+</Defs>

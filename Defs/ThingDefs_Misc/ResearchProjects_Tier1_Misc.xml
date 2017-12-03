@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>AnimalTailsAndEars</defName>
+		<label>animal tails and ears</label>
+		<description>Allows for the crafting of animal tails and ears accessories.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>ComplexClothing</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>6</researchViewY>
+	</ResearchProjectDef>
+</Defs>
