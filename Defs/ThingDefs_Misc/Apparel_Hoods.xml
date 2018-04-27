@@ -30,30 +30,30 @@
 			<ArmorRating_Sharp>0.225</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.225</ArmorRating_Heat>
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
-			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
-			<ComfyTemperatureMax>-2</ComfyTemperatureMax>
+			<!--<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>-10</ComfyTemperatureMax>-->
 			<Insulation_Cold>-10</Insulation_Cold>
-			<Insulation_Heat>-2</Insulation_Heat>
+			<Insulation_Heat>10</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
-			<TameAnimalChance>0.05</TameAnimalChance>
-			<TrainAnimalChance>0.05</TrainAnimalChance>
-			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
-			<GlobalLearningFactor>0.05</GlobalLearningFactor>
-			<PsychicSensitivity>-0.05</PsychicSensitivity>
-			<AimingDelayFactor>0.05</AimingDelayFactor>
-			<ShootingAccuracy>-0.05</ShootingAccuracy>
-			<SocialImpact>0.05</SocialImpact>
-			<TradePriceImprovement>0.05</TradePriceImprovement>
-			<RecruitPrisonerChance>0.05</RecruitPrisonerChance>
-			<PsychicSensitivity>-0.05</PsychicSensitivity>
-			<MedicalTendQuality>0.05</MedicalTendQuality>
-			<MedicalSurgerySuccessChance>0.05</MedicalSurgerySuccessChance>
-			<PlantHarvestYield>0.05</PlantHarvestYield>
-			<ConstructSuccessChance>0.05</ConstructSuccessChance>
-			<ButcheryMechanoidEfficiency>0.05</ButcheryMechanoidEfficiency>
-			<MiningYield>0.05</MiningYield>
-			<PlantHarvestYield>0.05</PlantHarvestYield>
+			<TameAnimalChance>0.1</TameAnimalChance>
+			<TrainAnimalChance>0.1</TrainAnimalChance>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<GlobalLearningFactor>0.1</GlobalLearningFactor>
+			<PsychicSensitivity>-0.1</PsychicSensitivity>
+			<AimingDelayFactor>0.1</AimingDelayFactor>
+			<ShootingAccuracy>-0.1</ShootingAccuracy>
+			<SocialImpact>0.1</SocialImpact>
+			<TradePriceImprovement>0.1</TradePriceImprovement>
+			<RecruitPrisonerChance>0.1</RecruitPrisonerChance>
+			<PsychicSensitivity>-0.1</PsychicSensitivity>
+			<MedicalTendQuality>0.1</MedicalTendQuality>
+			<MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
+			<PlantHarvestYield>0.1</PlantHarvestYield>
+			<ConstructSuccessChance>0.1</ConstructSuccessChance>
+			<ButcheryMechanoidEfficiency>0.1</ButcheryMechanoidEfficiency>
+			<MiningYield>0.1</MiningYield>
+			<PlantHarvestYield>0.1</PlantHarvestYield>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -104,10 +104,10 @@
 			<ArmorRating_Blunt>0.475</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.475</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.25</ArmorRating_Heat>
-			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
-			<ComfyTemperatureMax>-2</ComfyTemperatureMax>
+			<!--<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>-10</ComfyTemperatureMax>-->
 			<Insulation_Cold>-10</Insulation_Cold>
-			<Insulation_Heat>-2</Insulation_Heat>
+			<Insulation_Heat>10</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
@@ -162,10 +162,10 @@
 			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.25</ArmorRating_Heat>
-			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
-			<ComfyTemperatureMax>-2</ComfyTemperatureMax>
+			<!--<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>-10</ComfyTemperatureMax>-->
 			<Insulation_Cold>-10</Insulation_Cold>
-			<Insulation_Heat>-2</Insulation_Heat>
+			<Insulation_Heat>10</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.05</AimingDelayFactor>

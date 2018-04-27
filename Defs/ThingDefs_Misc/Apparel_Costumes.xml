@@ -33,31 +33,31 @@
 			<ArmorRating_Blunt>0.225</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.225</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.225</ArmorRating_Heat>
-			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
-			<ComfyTemperatureMax>-5</ComfyTemperatureMax>
+			<!--<ComfyTemperatureMin>-35</ComfyTemperatureMin>
+			<ComfyTemperatureMax>-15</ComfyTemperatureMax>-->
 			<Insulation_Cold>-35</Insulation_Cold>
-			<Insulation_Heat>-5</Insulation_Heat>
+			<Insulation_Heat>15</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.4</MoveSpeed>
-			<TameAnimalChance>0.05</TameAnimalChance>
-			<TrainAnimalChance>0.05</TrainAnimalChance>
-			<ToxicSensitivity>-0.05</ToxicSensitivity>
-			<ShootingAccuracy>-0.05</ShootingAccuracy>
-			<MeleeHitChance>-0.05</MeleeHitChance>
-			<SocialImpact>0.05</SocialImpact>
-			<RecruitPrisonerChance>0.05</RecruitPrisonerChance>
-			<MedicalTendSpeed>0.05</MedicalTendSpeed>
-			<ConstructionSpeed>0.05</ConstructionSpeed>
-			<SmithingSpeed>0.05</SmithingSpeed>
-			<SmeltingSpeed>0.05</SmeltingSpeed>
-			<ButcheryMechanoidSpeed>0.05</ButcheryMechanoidSpeed>
-			<SmoothingSpeed>0.05</SmoothingSpeed>
-			<EatingSpeed>0.05</EatingSpeed>
-			<BedRestEffectiveness>0.05</BedRestEffectiveness>
-			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
-			<ResearchSpeed>0.05</ResearchSpeed>
-			<WorkTableWorkSpeedFactor>0.05</WorkTableWorkSpeedFactor>
+			<TameAnimalChance>0.1</TameAnimalChance>
+			<TrainAnimalChance>0.1</TrainAnimalChance>
+			<ToxicSensitivity>-0.1</ToxicSensitivity>
+			<ShootingAccuracy>-0.1</ShootingAccuracy>
+			<MeleeHitChance>-0.1</MeleeHitChance>
+			<SocialImpact>0.1</SocialImpact>
+			<RecruitPrisonerChance>0.1</RecruitPrisonerChance>
+			<MedicalTendSpeed>0.1</MedicalTendSpeed>
+			<ConstructionSpeed>0.1</ConstructionSpeed>
+			<SmithingSpeed>0.1</SmithingSpeed>
+			<SmeltingSpeed>0.1</SmeltingSpeed>
+			<ButcheryMechanoidSpeed>0.1</ButcheryMechanoidSpeed>
+			<SmoothingSpeed>0.1</SmoothingSpeed>
+			<EatingSpeed>0.1</EatingSpeed>
+			<BedRestEffectiveness>0.1</BedRestEffectiveness>
+			<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+			<ResearchSpeed>0.1</ResearchSpeed>
+			<WorkTableWorkSpeedFactor>0.1</WorkTableWorkSpeedFactor>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -117,10 +117,10 @@
 			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.2</ArmorRating_Heat>
-			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
-			<ComfyTemperatureMax>-5</ComfyTemperatureMax>
+			<!--<ComfyTemperatureMin>-35</ComfyTemperatureMin>
+			<ComfyTemperatureMax>-15</ComfyTemperatureMax>-->
 			<Insulation_Cold>-35</Insulation_Cold>
-			<Insulation_Heat>-5</Insulation_Heat>
+			<Insulation_Heat>15</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.6</MoveSpeed>
@@ -186,10 +186,10 @@
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.2</ArmorRating_Heat>
-			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
-			<ComfyTemperatureMax>-5</ComfyTemperatureMax>
+			<!--<ComfyTemperatureMin>-35</ComfyTemperatureMin>
+			<ComfyTemperatureMax>-15</ComfyTemperatureMax>-->
 			<Insulation_Cold>-35</Insulation_Cold>
-			<Insulation_Heat>-5</Insulation_Heat>
+			<Insulation_Heat>15</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.4</MoveSpeed>
