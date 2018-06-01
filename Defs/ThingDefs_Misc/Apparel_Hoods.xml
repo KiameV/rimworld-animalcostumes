@@ -32,8 +32,8 @@
 			<ArmorRating_Electric>0.1</ArmorRating_Electric>
 			<!--<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>-10</ComfyTemperatureMax>-->
-			<Insulation_Cold>-10</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<Insulation_Cold>-4</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
 			<TameAnimalChance>0.1</TameAnimalChance>
@@ -106,8 +106,8 @@
 			<ArmorRating_Heat>0.25</ArmorRating_Heat>
 			<!--<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>-10</ComfyTemperatureMax>-->
-			<Insulation_Cold>-10</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<Insulation_Cold>-4</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
@@ -164,8 +164,8 @@
 			<ArmorRating_Heat>0.25</ArmorRating_Heat>
 			<!--<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>-10</ComfyTemperatureMax>-->
-			<Insulation_Cold>-10</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+			<Insulation_Cold>-4</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.05</AimingDelayFactor>

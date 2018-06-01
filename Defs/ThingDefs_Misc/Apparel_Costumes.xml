@@ -35,8 +35,8 @@
 			<ArmorRating_Heat>0.225</ArmorRating_Heat>
 			<!--<ComfyTemperatureMin>-35</ComfyTemperatureMin>
 			<ComfyTemperatureMax>-15</ComfyTemperatureMax>-->
-			<Insulation_Cold>-35</Insulation_Cold>
-			<Insulation_Heat>15</Insulation_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.4</MoveSpeed>
@@ -119,8 +119,8 @@
 			<ArmorRating_Heat>0.2</ArmorRating_Heat>
 			<!--<ComfyTemperatureMin>-35</ComfyTemperatureMin>
 			<ComfyTemperatureMax>-15</ComfyTemperatureMax>-->
-			<Insulation_Cold>-35</Insulation_Cold>
-			<Insulation_Heat>15</Insulation_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.6</MoveSpeed>
@@ -188,8 +188,8 @@
 			<ArmorRating_Heat>0.2</ArmorRating_Heat>
 			<!--<ComfyTemperatureMin>-35</ComfyTemperatureMin>
 			<ComfyTemperatureMax>-15</ComfyTemperatureMax>-->
-			<Insulation_Cold>-35</Insulation_Cold>
-			<Insulation_Heat>15</Insulation_Heat>
+			<Insulation_Cold>-10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.4</MoveSpeed>
