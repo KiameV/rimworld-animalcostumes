@@ -12,6 +12,6 @@
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<researchViewX>8</researchViewX>
-		<researchViewY>4</researchViewY>
+		<researchViewY>5</researchViewY>
 	</ResearchProjectDef>
 </Defs>

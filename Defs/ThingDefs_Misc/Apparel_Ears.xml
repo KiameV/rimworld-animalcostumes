@@ -16,38 +16,46 @@
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
-		<costStuffCount>50</costStuffCount>
+		<costStuffCount>25</costStuffCount>
 		<costList>
 			<Steel>5</Steel>
 		</costList>
 		<statBases>
-			<WorkToMake>5000</WorkToMake>
+			<WorkToMake>1800</WorkToMake>
 			<MaxHitPoints>100</MaxHitPoints>
-			<Mass>0.5</Mass>
+			<Mass>0.05</Mass>
+			<Flammability>0.8</Flammability>
+			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<Insulation_Cold>0.25</Insulation_Cold>
+			<Insulation_Heat>0.25</Insulation_Heat>
+			<EquipDelay>0.25</EquipDelay>
 		</statBases>
+		<generateCommonality>0.5</generateCommonality>
 		<equippedStatOffsets>
 			<TameAnimalChance>0.01</TameAnimalChance>
 			<TrainAnimalChance>0.01</TrainAnimalChance>
-			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
 			<GlobalLearningFactor>0.01</GlobalLearningFactor>
-			<PsychicSensitivity>-0.01</PsychicSensitivity>
+			<PsychicSensitivity>-0.1</PsychicSensitivity>
 			<AimingDelayFactor>0.01</AimingDelayFactor>
 			<ShootingAccuracy>-0.01</ShootingAccuracy>
 			<SocialImpact>0.01</SocialImpact>
 			<TradePriceImprovement>0.01</TradePriceImprovement>
 			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
-			<PsychicSensitivity>-0.01</PsychicSensitivity>
 			<MedicalTendQuality>0.01</MedicalTendQuality>
 			<MedicalSurgerySuccessChance>0.01</MedicalSurgerySuccessChance>
 			<PlantHarvestYield>0.01</PlantHarvestYield>
 			<ConstructSuccessChance>0.01</ConstructSuccessChance>
-			<ButcheryMechanoidEfficiency>0.01</ButcheryMechanoidEfficiency>
 			<MiningYield>0.01</MiningYield>
-			<PlantHarvestYield>0.01</PlantHarvestYield>
+			<WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
+			<DiplomacyPower>0.01</DiplomacyPower>
+			<PlantWorkSpeed>0.01</PlantWorkSpeed>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
-				<li>FullHead</li>
+				<li>UpperHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Apparel/AnimalCostumes/Tanooki/Ears</wornGraphicPath>
 			<layers>
@@ -63,7 +71,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 		</apparel>
-		<generateCommonality>2</generateCommonality>
+		<!--<generateCommonality>0.05</generateCommonality>-->
 	</ThingDef>
 
 	<ThingDef ParentName="HatMakeableBase">
@@ -82,64 +90,45 @@
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
-		<costStuffCount>75</costStuffCount>
+		<costStuffCount>50</costStuffCount>
 		<costList>
 			<Steel>5</Steel>
 		</costList>
 		<statBases>
-			<WorkToMake>6000</WorkToMake>
-			<MaxHitPoints>150</MaxHitPoints>
-			<Mass>0.5</Mass>
-			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-			<Beauty>2</Beauty>
-			<Insulation_Cold>-10</Insulation_Cold>
-			<Insulation_Heat>-2</Insulation_Heat>
+			<WorkToMake>2000</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.07</Mass>
+			<Flammability>0.8</Flammability>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<Insulation_Cold>0.5</Insulation_Cold>
+			<Insulation_Heat>0.5</Insulation_Heat>
+			<EquipDelay>0.25</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.1</MoveSpeed>
-			<TameAnimalChance>0.02</TameAnimalChance>
-			<TrainAnimalChance>0.02</TrainAnimalChance>
-			<MentalBreakThreshold>-0.025</MentalBreakThreshold>
-			<GlobalLearningFactor>0.02</GlobalLearningFactor>
-			<PsychicSensitivity>-0.025</PsychicSensitivity>
-			<ToxicSensitivity>-0.025</ToxicSensitivity>
-			<AimingDelayFactor>0.025</AimingDelayFactor>
-			<ShootingAccuracy>-0.025</ShootingAccuracy>
-			<MeleeHitChance>-0.025</MeleeHitChance>
-			<FoodPoisonChance>-0.025</FoodPoisonChance>
-			<ImmunityGainSpeed>0.025</ImmunityGainSpeed>
-			<SocialImpact>0.2</SocialImpact>
-			<TradePriceImprovement>0.05</TradePriceImprovement>
-			<RecruitPrisonerChance>0.02</RecruitPrisonerChance>
-			<PsychicSensitivity>-0.02</PsychicSensitivity>
-			<MiningSpeed>0.02</MiningSpeed>
-			<PlantWorkSpeed>0.02</PlantWorkSpeed>
-			<ConstructionSpeed>0.02</ConstructionSpeed>
-			<FixBrokenDownBuildingSuccessChance>0.025</FixBrokenDownBuildingSuccessChance>
-			<WorkTableWorkSpeedFactor>0.02</WorkTableWorkSpeedFactor>
-			<MedicalTendSpeed>0.02</MedicalTendSpeed>
-			<MedicalTendQuality>0.02</MedicalTendQuality>
-			<MedicalSurgerySuccessChance>0.02</MedicalSurgerySuccessChance>
-			<EatingSpeed>0.02</EatingSpeed>
-			<MiningYield>0.02</MiningYield>
-			<SmoothingSpeed>0.02</SmoothingSpeed>
-			<MechanoidOperationSuccessChance>0.025</MechanoidOperationSuccessChance>
-			<PlantHarvestYield>0.02</PlantHarvestYield>
-			<ConstructSuccessChance>0.02</ConstructSuccessChance>
-			<AnimalGatherSpeed>0.02</AnimalGatherSpeed>
-			<AnimalGatherYield>0.02</AnimalGatherYield>
-			<BedRestEffectiveness>0.02</BedRestEffectiveness>
-			<ConstructionSpeed>0.02</ConstructionSpeed>
-			<SmithingSpeed>0.02</SmithingSpeed>
-			<SmeltingSpeed>0.02</SmeltingSpeed>
-			<ButcheryMechanoidSpeed>0.02</ButcheryMechanoidSpeed>
-			<ButcheryMechanoidEfficiency>0.02</ButcheryMechanoidEfficiency>
-			<CarryingCapacity>5</CarryingCapacity>
+			<TameAnimalChance>0.01</TameAnimalChance>
+			<TrainAnimalChance>0.01</TrainAnimalChance>
+			<GlobalLearningFactor>0.01</GlobalLearningFactor>
+			<PsychicSensitivity>-0.1</PsychicSensitivity>
+			<AimingDelayFactor>0.01</AimingDelayFactor>
+			<ShootingAccuracy>-0.01</ShootingAccuracy>
+			<SocialImpact>0.01</SocialImpact>
+			<TradePriceImprovement>0.01</TradePriceImprovement>
+			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
+			<MedicalTendQuality>0.01</MedicalTendQuality>
+			<MedicalSurgerySuccessChance>0.01</MedicalSurgerySuccessChance>
+			<PlantHarvestYield>0.01</PlantHarvestYield>
+			<ConstructSuccessChance>0.01</ConstructSuccessChance>
+			<MiningYield>0.01</MiningYield>
+			<WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
+			<DiplomacyPower>0.01</DiplomacyPower>
+			<PlantWorkSpeed>0.01</PlantWorkSpeed>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
-				<li>FullHead</li>
+				<li>UpperHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Apparel/AnimalCostumes/Tanooki/Tuque</wornGraphicPath>
 			<layers>
@@ -155,10 +144,10 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 		</apparel>
-		<generateCommonality>2</generateCommonality>
+		<!--<generateCommonality>0.05</generateCommonality>-->
 	</ThingDef>
 
-	<ThingDef ParentName="HatMakeableBase">
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>Apparel_CatEars</defName>
 		<label>Cat Ears</label>
 		<description>A set of cat ears.</description>
@@ -169,28 +158,40 @@
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>CombatAnimalTailsAndEars</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
 		</recipeMaker>
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
-		<costStuffCount>75</costStuffCount>
+		<costStuffCount>25</costStuffCount>
 		<costList>
 			<Steel>40</Steel>
 		</costList>
 		<statBases>
-			<WorkToMake>12500</WorkToMake>
+			<WorkToMake>2500</WorkToMake>
 			<MaxHitPoints>200</MaxHitPoints>
-			<Mass>1</Mass>
+			<Mass>1.5</Mass>
+			<Flammability>0.8</Flammability>
 			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
-			<Beauty>2</Beauty>
+			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<Insulation_Cold>0.25</Insulation_Cold>
+			<Insulation_Heat>0.25</Insulation_Heat>
+			<EquipDelay>2.0</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<AimingDelayFactor>0.01</AimingDelayFactor>
-			<ShootingAccuracy>-0.01</ShootingAccuracy>
-			<MeleeHitChance>0.01</MeleeHitChance>
-			<MeleeDodgeChance>0.01</MeleeDodgeChance>
+			<AimingDelayFactor>0.05</AimingDelayFactor>
+			<ShootingAccuracy>-0.05</ShootingAccuracy>
+			<MeleeHitChance>0.05</MeleeHitChance>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<PsychicSensitivity>-0.1</PsychicSensitivity>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -208,10 +209,10 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-		<generateCommonality>2</generateCommonality>
+		<!--<generateCommonality>0.05</generateCommonality>-->
 	</ThingDef>
 
-	<ThingDef ParentName="HatMakeableBase">
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>Apparel_TuqueCatEars</defName>
 		<label>Cat Ears Tuque</label>
 		<description>A set of cat ears on a tuque.</description>
@@ -227,24 +228,32 @@
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
-		<costStuffCount>100</costStuffCount>
+		<costStuffCount>50</costStuffCount>
 		<costList>
 			<Steel>40</Steel>
 		</costList>
 		<statBases>
-			<WorkToMake>13500</WorkToMake>
+			<WorkToMake>3000</WorkToMake>
 			<MaxHitPoints>200</MaxHitPoints>
-			<Mass>1</Mass>
-			<ArmorRating_Blunt>0.28</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.38</ArmorRating_Sharp>
-			<Insulation_Cold>-10</Insulation_Cold>
-			<Insulation_Heat>-2</Insulation_Heat>
+			<Mass>1.7</Mass>
+			<Flammability>0.8</Flammability>
+			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<Insulation_Cold>0.5</Insulation_Cold>
+			<Insulation_Heat>0.5</Insulation_Heat>
+			<EquipDelay>2.0</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<AimingDelayFactor>0.01</AimingDelayFactor>
-			<ShootingAccuracy>-0.01</ShootingAccuracy>
-			<MeleeHitChance>0.01</MeleeHitChance>
-			<MeleeDodgeChance>0.01</MeleeDodgeChance>
+			<AimingDelayFactor>0.05</AimingDelayFactor>
+			<ShootingAccuracy>-0.05</ShootingAccuracy>
+			<MeleeHitChance>0.05</MeleeHitChance>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<PsychicSensitivity>-0.1</PsychicSensitivity>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -262,9 +271,10 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+		<!--<generateCommonality>0.05</generateCommonality>-->
 	</ThingDef>
 
-	<ThingDef ParentName="HatMakeableBase">
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>Apparel_DogEars</defName>
 		<label>Dog Ears</label>
 		<description>A set of dog ears.</description>
@@ -280,22 +290,32 @@
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
-		<costStuffCount>75</costStuffCount>
+		<costStuffCount>25</costStuffCount>
 		<costList>
 			<Steel>40</Steel>
 		</costList>
 		<statBases>
-			<WorkToMake>12500</WorkToMake>
+			<WorkToMake>2500</WorkToMake>
 			<MaxHitPoints>200</MaxHitPoints>
-			<Mass>1</Mass>
+			<Mass>1.5</Mass>
+			<Flammability>0.8</Flammability>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<Insulation_Cold>0.25</Insulation_Cold>
+			<Insulation_Heat>0.25</Insulation_Heat>
+			<EquipDelay>2.0</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.01</AimingDelayFactor>
-			<ShootingAccuracy>0.01</ShootingAccuracy>
-			<MeleeHitChance>-0.01</MeleeHitChance>
-			<MeleeDodgeChance>-0.01</MeleeDodgeChance>
+			<AimingDelayFactor>-0.05</AimingDelayFactor>
+			<ShootingAccuracy>0.05</ShootingAccuracy>
+			<MeleeHitChance>-0.05</MeleeHitChance>
+			<MeleeDodgeChance>-0.05</MeleeDodgeChance>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<PsychicSensitivity>-0.1</PsychicSensitivity>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -313,10 +333,10 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-		<generateCommonality>2</generateCommonality>
+		<!--<generateCommonality>0.05</generateCommonality>-->
 	</ThingDef>
 
-	<ThingDef ParentName="HatMakeableBase">
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>Apparel_TuqueDogEars</defName>
 		<label>Dog Ears Tuque</label>
 		<description>A set of dog ears on a tuque.</description>
@@ -332,24 +352,32 @@
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
-		<costStuffCount>100</costStuffCount>
+		<costStuffCount>50</costStuffCount>
 		<costList>
 			<Steel>40</Steel>
 		</costList>
 		<statBases>
-			<WorkToMake>13500</WorkToMake>
+			<WorkToMake>3000</WorkToMake>
 			<MaxHitPoints>200</MaxHitPoints>
-			<Mass>1</Mass>
-			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.48</ArmorRating_Sharp>
-			<Insulation_Cold>-10</Insulation_Cold>
-			<Insulation_Heat>-2</Insulation_Heat>
+			<Mass>1.7</Mass>
+			<Flammability>0.8</Flammability>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<Insulation_Cold>0.5</Insulation_Cold>
+			<Insulation_Heat>0.5</Insulation_Heat>
+			<EquipDelay>2.0</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.01</AimingDelayFactor>
-			<ShootingAccuracy>0.01</ShootingAccuracy>
-			<MeleeHitChance>-0.01</MeleeHitChance>
-			<MeleeDodgeChance>-0.01</MeleeDodgeChance>
+			<AimingDelayFactor>-0.05</AimingDelayFactor>
+			<ShootingAccuracy>0.05</ShootingAccuracy>
+			<MeleeHitChance>-0.05</MeleeHitChance>
+			<MeleeDodgeChance>-0.05</MeleeDodgeChance>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<PsychicSensitivity>-0.1</PsychicSensitivity>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -367,6 +395,6 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-		<generateCommonality>2</generateCommonality>
+		<!--<generateCommonality>0.05</generateCommonality>-->
 	</ThingDef>
 </Defs>

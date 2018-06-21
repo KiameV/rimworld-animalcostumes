@@ -11,6 +11,9 @@
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 			<researchPrerequisite>AnimalCostumes</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
 		</recipeMaker>
 		<techLevel>Industrial</techLevel>
 		<costStuffCount>10</costStuffCount>
@@ -25,10 +28,13 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>7500</WorkToMake>
 			<Mass>0.01</Mass>
-			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
-			<ComfyTemperatureMin>-2</ComfyTemperatureMin>
-			<Insulation_Cold>-2</Insulation_Cold>
+			<Flammability>0.6</Flammability>
+			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
 		</statBases>
 		<apparel>
 			<bodyPartGroups>
@@ -50,6 +56,6 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 		</apparel>
-		<generateCommonality>6</generateCommonality>
+		<generateCommonality>0.5</generateCommonality>
 	</ThingDef>
 </Defs>

@@ -9,7 +9,7 @@
 		<prerequisites>
 			<li>ComplexClothing</li>
 		</prerequisites>
-		<researchViewX>0</researchViewX>
+		<researchViewX>1</researchViewX>
 		<researchViewY>6</researchViewY>
 	</ResearchProjectDef>
 </Defs>

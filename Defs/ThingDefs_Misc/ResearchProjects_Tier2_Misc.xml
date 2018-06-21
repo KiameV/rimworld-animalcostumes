@@ -10,7 +10,7 @@
 			<li>Machining</li>
 			<li>AnimalTailsAndEars</li>
 		</prerequisites>
-		<researchViewX>2</researchViewX>
-		<researchViewY>5</researchViewY>
+		<researchViewX>5</researchViewX>
+		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 </Defs>
