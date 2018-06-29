@@ -87,7 +87,7 @@
 		<generateCommonality>2</generateCommonality>
 	</ThingDef>
 
-	<ThingDef ParentName="ArmorMakeableBase">
+	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>Apparel_CatTail</defName>
 		<label>Cat Tail</label>
 		<description>A tail for cat-like reflexes.</description>
@@ -158,7 +158,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="ArmorMakeableBase">
+	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>Apparel_DogTail</defName>
 		<label>Dog Tail</label>
 		<description>A tail for dog-like senses.</description>

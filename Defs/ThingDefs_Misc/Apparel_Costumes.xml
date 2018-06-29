@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="ArmorMakeableBase">
+	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>Apparel_TanookiCostume</defName>
 		<label>Tanooki Costume</label>
 		<description>A costume for tanooki-like knowledge.</description>
@@ -99,7 +99,7 @@
 		<generateCommonality>2</generateCommonality>
 	</ThingDef>
 	
-		<ThingDef ParentName="ArmorMakeableBase">
+		<ThingDef ParentName="ArmorMachineableBase">
 		<defName>Apparel_CatCostume</defName>
 		<label>Cat Costume</label>
 		<description>A costume for cat-like reflexes.</description>
@@ -183,7 +183,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="ArmorMakeableBase">
+	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>Apparel_DogCostume</defName>
 		<label>Dog Costume</label>
 		<description>A costume for dog-like senses.</description>
