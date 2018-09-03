@@ -39,17 +39,16 @@
 			<GlobalLearningFactor>0.01</GlobalLearningFactor>
 			<PsychicSensitivity>-0.1</PsychicSensitivity>
 			<AimingDelayFactor>0.01</AimingDelayFactor>
-			<ShootingAccuracy>-0.01</ShootingAccuracy>
+			<ShootingAccuracyPawn>-0.01</ShootingAccuracyPawn>
 			<SocialImpact>0.01</SocialImpact>
 			<TradePriceImprovement>0.01</TradePriceImprovement>
-			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
+			<NegotiationAbility>0.01</NegotiationAbility>
 			<MedicalTendQuality>0.01</MedicalTendQuality>
 			<MedicalSurgerySuccessChance>0.01</MedicalSurgerySuccessChance>
 			<PlantHarvestYield>0.01</PlantHarvestYield>
 			<ConstructSuccessChance>0.01</ConstructSuccessChance>
 			<MiningYield>0.01</MiningYield>
 			<WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
-			<DiplomacyPower>0.01</DiplomacyPower>
 			<PlantWorkSpeed>0.01</PlantWorkSpeed>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 		</equippedStatOffsets>
@@ -112,17 +111,16 @@
 			<GlobalLearningFactor>0.01</GlobalLearningFactor>
 			<PsychicSensitivity>-0.1</PsychicSensitivity>
 			<AimingDelayFactor>0.01</AimingDelayFactor>
-			<ShootingAccuracy>-0.01</ShootingAccuracy>
+			<ShootingAccuracyPawn>-0.01</ShootingAccuracyPawn>
 			<SocialImpact>0.01</SocialImpact>
 			<TradePriceImprovement>0.01</TradePriceImprovement>
-			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
+			<NegotiationAbility>0.01</NegotiationAbility>
 			<MedicalTendQuality>0.01</MedicalTendQuality>
 			<MedicalSurgerySuccessChance>0.01</MedicalSurgerySuccessChance>
 			<PlantHarvestYield>0.01</PlantHarvestYield>
 			<ConstructSuccessChance>0.01</ConstructSuccessChance>
 			<MiningYield>0.01</MiningYield>
 			<WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
-			<DiplomacyPower>0.01</DiplomacyPower>
 			<PlantWorkSpeed>0.01</PlantWorkSpeed>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 		</equippedStatOffsets>
@@ -187,7 +185,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
-			<ShootingAccuracy>-0.05</ShootingAccuracy>
+			<ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
 			<MeleeHitChance>0.05</MeleeHitChance>
 			<MeleeDodgeChance>0.05</MeleeDodgeChance>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
@@ -249,7 +247,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
-			<ShootingAccuracy>-0.05</ShootingAccuracy>
+			<ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
 			<MeleeHitChance>0.05</MeleeHitChance>
 			<MeleeDodgeChance>0.05</MeleeDodgeChance>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
@@ -311,7 +309,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.05</AimingDelayFactor>
-			<ShootingAccuracy>0.05</ShootingAccuracy>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
 			<MeleeHitChance>-0.05</MeleeHitChance>
 			<MeleeDodgeChance>-0.05</MeleeDodgeChance>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
@@ -373,7 +371,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.05</AimingDelayFactor>
-			<ShootingAccuracy>0.05</ShootingAccuracy>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
 			<MeleeHitChance>-0.05</MeleeHitChance>
 			<MeleeDodgeChance>-0.05</MeleeDodgeChance>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>

@@ -46,10 +46,10 @@
 			<TameAnimalChance>0.01</TameAnimalChance>
 			<TrainAnimalChance>0.01</TrainAnimalChance>
 			<ToxicSensitivity>-0.01</ToxicSensitivity>
-			<ShootingAccuracy>-0.01</ShootingAccuracy>
+			<ShootingAccuracyPawn>-0.01</ShootingAccuracyPawn>
 			<MeleeHitChance>-0.01</MeleeHitChance>
 			<SocialImpact>0.01</SocialImpact>
-			<RecruitPrisonerChance>0.01</RecruitPrisonerChance>
+			<NegotiationAbility>0.01</NegotiationAbility>
 			<MedicalTendSpeed>0.02</MedicalTendSpeed>
 			<ConstructionSpeed>0.01</ConstructionSpeed>
 			<SmithingSpeed>0.01</SmithingSpeed>
@@ -61,7 +61,6 @@
 			<WorkSpeedGlobal>0.01</WorkSpeedGlobal>
 			<ResearchSpeed>0.01</ResearchSpeed>
 			<WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
-			<DiplomacyPower>0.01</DiplomacyPower>
 			<MiningSpeed>0.01</MiningSpeed>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 			<PsychicSensitivity>-0.1</PsychicSensitivity>
@@ -119,8 +118,8 @@
 			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>4</Mass>
 			<Flammability>0.6</Flammability>
-			<ArmorRating_Sharp>0.375</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.375</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
@@ -134,7 +133,7 @@
 			<MeleeHitChance>0.01</MeleeHitChance>
 			<MeleeDodgeChance>0.01</MeleeDodgeChance>
 			<AimingDelayFactor>0.01</AimingDelayFactor>
-			<ShootingAccuracy>-0.01</ShootingAccuracy>
+			<ShootingAccuracyPawn>-0.01</ShootingAccuracyPawn>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 			<PsychicSensitivity>-0.1</PsychicSensitivity>
 		</equippedStatOffsets>
@@ -190,7 +189,7 @@
 			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>2</Mass>
 			<Flammability>0.6</Flammability>
-			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
@@ -203,7 +202,7 @@
 		<equippedStatOffsets>
 			<MoveSpeed>0.05</MoveSpeed>
 			<AimingDelayFactor>-0.01</AimingDelayFactor>
-			<ShootingAccuracy>0.01</ShootingAccuracy>
+			<ShootingAccuracyPawn>0.01</ShootingAccuracyPawn>
 			<MeleeHitChance>-0.01</MeleeHitChance>
 			<MeleeDodgeChance>-0.01</MeleeDodgeChance>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
