@@ -1,6 +1,109 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="ArmorMachineableBase">
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorMachineableBase">
+		<defName>Apparel_CowCostume</defName>
+		<label>Cow Costume</label>
+		<description>A costume for cow-like grazing.</description>
+		<graphicData>
+			<texPath>Apparel/AnimalCostumes/Cow/Body</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<researchPrerequisite>AnimalCostumes</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<costStuffCount>250</costStuffCount>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Steel>75</Steel>
+			<Plasteel>15</Plasteel>
+		</costList>
+		<statBases>
+			<WorkToMake>35000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.35</Flammability>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.7</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.7</StuffEffectMultiplierInsulation_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>8</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+			<TameAnimalChance>0.1</TameAnimalChance>
+			<TrainAnimalChance>0.1</TrainAnimalChance>
+			<ToxicSensitivity>-0.1</ToxicSensitivity>
+			<ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
+			<MeleeHitChance>-0.5</MeleeHitChance>
+			<SocialImpact>0.1</SocialImpact>
+			<MedicalTendSpeed>-0.1</MedicalTendSpeed>
+			<ConstructionSpeed>-0.1</ConstructionSpeed>
+			<SmithingSpeed>-0.1</SmithingSpeed>
+			<SmeltingSpeed>-0.1</SmeltingSpeed>
+			<ButcheryMechanoidSpeed>0.1</ButcheryMechanoidSpeed>
+			<SmoothingSpeed>-0.1</SmoothingSpeed>
+			<EatingSpeed>-0.1</EatingSpeed>
+			<BedRestEffectiveness>0.1</BedRestEffectiveness>
+			<MiningSpeed>-0.1</MiningSpeed>
+			<PlantWorkSpeed>0.2</PlantWorkSpeed>
+			<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+			<PsychicSensitivity>-0.15</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/AnimalCostumes/Cow/Body</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>Tribal</li>
+				<li>Outlander</li>
+				<li>TribalTrader</li>
+				<li>OutlanderTrader</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<comps>
+			<li Class="AnimalCostumes.CompProperties_Milkable_AC">
+				<thingDef>Milk</thingDef>
+				<intervalDays>1</intervalDays>
+				<amount>6</amount>
+			</li>
+		</comps>
+		<generateCommonality>2</generateCommonality>
+		<CostumeBreed>Cow</CostumeBreed>
+		<CostumeType>Body</CostumeType>
+		<CostumeRequiresMoreFood>true</CostumeRequiresMoreFood>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
+	
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorMachineableBase">
 		<defName>Apparel_TanookiCostume</defName>
 		<label>Tanooki Costume</label>
 		<description>A costume for tanooki-like knowledge.</description>
@@ -92,10 +195,20 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 		</apparel>
+		<comps>
+			<li Class="AnimalCostumes.CompProperties_Sheddable_AC">
+				<thingDef>AnimalCostumes_TanookiFur</thingDef>
+				<intervalDays>15</intervalDays>
+				<amount>40</amount>
+			</li>
+		</comps>
 		<generateCommonality>2</generateCommonality>
-	</ThingDef>
+		<CostumeBreed>Tanooki</CostumeBreed>
+		<CostumeType>Body</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
 	
-		<ThingDef ParentName="ArmorMachineableBase">
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorMachineableBase">
 		<defName>Apparel_CatCostume</defName>
 		<label>Cat Costume</label>
 		<description>A costume for cat-like reflexes.</description>
@@ -173,10 +286,20 @@
 		<thingSetMakerTags>
 			<li>RewardSpecial</li>
 		</thingSetMakerTags>
-	</ThingDef>
+		<comps>
+			<li Class="AnimalCostumes.CompProperties_Sheddable_AC">
+				<thingDef>AnimalCostumes_CatFur</thingDef>
+				<intervalDays>15</intervalDays>
+				<amount>40</amount>
+			</li>
+		</comps>
+		<CostumeBreed>Cat</CostumeBreed>
+		<CostumeType>Body</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
 
 
-	<ThingDef ParentName="ArmorMachineableBase">
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorMachineableBase">
 		<defName>Apparel_DogCostume</defName>
 		<label>Dog Costume</label>
 		<description>A costume for dog-like senses.</description>
@@ -254,5 +377,15 @@
 			<li>RewardSpecial</li>
 		</thingSetMakerTags>
 		<generateCommonality>2</generateCommonality>
-	</ThingDef>
+		<comps>
+			<li Class="AnimalCostumes.CompProperties_Sheddable_AC">
+				<thingDef>AnimalCostumes_DogFur</thingDef>
+				<intervalDays>15</intervalDays>
+				<amount>40</amount>
+			</li>
+		</comps>
+		<CostumeBreed>Dog</CostumeBreed>
+		<CostumeType>Body</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
 </Defs>

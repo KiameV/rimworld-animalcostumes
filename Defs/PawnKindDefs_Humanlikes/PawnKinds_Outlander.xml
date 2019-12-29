@@ -246,4 +246,45 @@
       <li>Advanced</li>
     </techHediffsTags>
   </PawnKindDef>
+  
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Elite_Trader_Cow</defName>
+    <label>town trader</label>
+    <trader>true</trader>
+    <combatPower>40</combatPower>
+    <isFighter>false</isFighter>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.2</max>
+    </gearHealthRange>
+    <itemQuality>Good</itemQuality>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>800</min>
+      <max>1000</max>
+    </weaponMoney>
+    <apparelMoney>
+      <min>800</min>
+      <max>1800</max>
+    </apparelMoney>
+    <apparelRequired Inherit="False">
+      <li>Apparel_CowCostume</li>
+	  <li>Apparel_CowHood</li>
+    </apparelRequired>
+    <apparelTags>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>BeltDefensePop</li>
+    </apparelTags>
+    <techHediffsChance>0.15</techHediffsChance>
+    <techHediffsMoney>
+      <min>800</min>
+      <max>100000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </PawnKindDef>
 </Defs>

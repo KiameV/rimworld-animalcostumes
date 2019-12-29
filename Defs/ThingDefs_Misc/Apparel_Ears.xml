@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="HatMakeableBase">
+	<AnimalCostumes.AnimalCostumeDef ParentName="HatMakeableBase">
 		<defName>Apparel_TanookiEars</defName>
 		<label>Tanooki Ears</label>
 		<description>A set of tanooki ears.</description>
@@ -70,10 +70,12 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 		</apparel>
-		<!--<generateCommonality>0.05</generateCommonality>-->
-	</ThingDef>
+		<CostumeBreed>Tanooki</CostumeBreed>
+		<CostumeType>Ears</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
 
-	<ThingDef ParentName="HatMakeableBase">
+	<AnimalCostumes.AnimalCostumeDef ParentName="HatMakeableBase">
 		<defName>Apparel_TuqueTanookiEars</defName>
 		<label>Tanooki Ears Tuque</label>
 		<description>A set of tanooki ears on a tuque.</description>
@@ -142,10 +144,12 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 		</apparel>
-		<!--<generateCommonality>0.05</generateCommonality>-->
-	</ThingDef>
+		<CostumeBreed>Tanooki</CostumeBreed>
+		<CostumeType>Ears</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
 
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorHelmetMakeableBase">
 		<defName>Apparel_CatEars</defName>
 		<label>Cat Ears</label>
 		<description>A set of cat ears.</description>
@@ -207,10 +211,12 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-		<!--<generateCommonality>0.05</generateCommonality>-->
-	</ThingDef>
+		<CostumeBreed>Cat</CostumeBreed>
+		<CostumeType>Ears</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
 
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorHelmetMakeableBase">
 		<defName>Apparel_TuqueCatEars</defName>
 		<label>Cat Ears Tuque</label>
 		<description>A set of cat ears on a tuque.</description>
@@ -269,10 +275,12 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-		<!--<generateCommonality>0.05</generateCommonality>-->
-	</ThingDef>
+		<CostumeBreed>Cat</CostumeBreed>
+		<CostumeType>Ears</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
 
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorHelmetMakeableBase">
 		<defName>Apparel_DogEars</defName>
 		<label>Dog Ears</label>
 		<description>A set of dog ears.</description>
@@ -331,10 +339,12 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-		<!--<generateCommonality>0.05</generateCommonality>-->
-	</ThingDef>
+		<CostumeBreed>Dog</CostumeBreed>
+		<CostumeType>Ears</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
 
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorHelmetMakeableBase">
 		<defName>Apparel_TuqueDogEars</defName>
 		<label>Dog Ears Tuque</label>
 		<description>A set of dog ears on a tuque.</description>
@@ -393,6 +403,8 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-		<!--<generateCommonality>0.05</generateCommonality>-->
-	</ThingDef>
+		<CostumeBreed>Dog</CostumeBreed>
+		<CostumeType>Ears</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
 </Defs>

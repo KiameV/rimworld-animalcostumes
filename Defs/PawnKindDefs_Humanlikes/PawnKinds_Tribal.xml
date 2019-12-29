@@ -18,7 +18,7 @@
     </apparelMoney>
     <apparelRequired>
       <li>Apparel_CatTail</li>
-	  <li>Apparel_TuqueCatEars</li>
+      <li>Apparel_TuqueCatEars</li>
     </apparelRequired>
     <weaponMoney>
       <min>600</min>
@@ -53,7 +53,7 @@
     </apparelMoney>
     <apparelRequired>
       <li>Apparel_DogTail</li>
-	  <li>Apparel_TuqueDogEars</li>
+      <li>Apparel_TuqueDogEars</li>
     </apparelRequired>
     <weaponMoney>
       <min>600</min>
@@ -80,7 +80,7 @@
     <trader>true</trader>
     <apparelRequired Inherit="False">
       <li>Apparel_TanookiTail</li>
-	  <li>Apparel_TuqueTanookiEars</li>
+      <li>Apparel_TuqueTanookiEars</li>
     </apparelRequired>
   </PawnKindDef>
 
@@ -130,7 +130,7 @@
     <apparelRequired>
       <li>Apparel_DogCostume</li>
       <li>Apparel_DogHood</li>
-	  <li>Apparel_AnimalCostumeUndergarment</li>
+      <li>Apparel_AnimalCostumeUndergarment</li>
     </apparelRequired>
     <weaponMoney>
       <min>850</min>
@@ -159,6 +159,16 @@
       <li>Apparel_TanookiCostume</li>
 	  <li>Apparel_TanookiHood</li>
 	  <li>Apparel_AnimalCostumeUndergarment</li>
+    </apparelRequired>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="Tribal_Hunter">
+    <defName>Tribal_Cheif_Trader_Cow</defName>
+    <label>trader</label>
+    <trader>true</trader>
+    <apparelRequired Inherit="False">
+      <li>Apparel_CowCostume</li>
+	  <li>Apparel_CowHood</li>
     </apparelRequired>
   </PawnKindDef>
 </Defs>

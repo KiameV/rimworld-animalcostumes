@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="ApparelMakeableBase">
+	<AnimalCostumes.AnimalCostumeDef ParentName="ApparelMakeableBase">
 		<defName>Apparel_TanookiTail</defName>
 		<label>Tanooki Tail</label>
 		<description>A tanooki tail.</description>
@@ -84,9 +84,12 @@
 			</defaultOutfitTags>
 		</apparel>
 		<generateCommonality>2</generateCommonality>
-	</ThingDef>
+		<CostumeBreed>Tanooki</CostumeBreed>
+		<CostumeType>Tail</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
 
-	<ThingDef ParentName="ArmorMachineableBase">
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorMachineableBase">
 		<defName>Apparel_CatTail</defName>
 		<label>Cat Tail</label>
 		<description>A tail for cat-like reflexes.</description>
@@ -154,10 +157,13 @@
 			</defaultOutfitTags>
 		</apparel>
 		<generateCommonality>2</generateCommonality>
-	</ThingDef>
+		<CostumeBreed>Cat</CostumeBreed>
+		<CostumeType>Tail</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
 
 
-	<ThingDef ParentName="ArmorMachineableBase">
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorMachineableBase">
 		<defName>Apparel_DogTail</defName>
 		<label>Dog Tail</label>
 		<description>A tail for dog-like senses.</description>
@@ -225,5 +231,8 @@
 			</defaultOutfitTags>
 		</apparel>
 		<generateCommonality>2</generateCommonality>
-	</ThingDef>
+		<CostumeBreed>Dog</CostumeBreed>
+		<CostumeType>Tail</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
 </Defs>

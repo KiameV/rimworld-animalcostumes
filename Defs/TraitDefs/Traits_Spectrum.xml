@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TraitDef>
+    <defName>AnimalCostumes_Furry</defName>
+    <commonality>0.2</commonality>
+    <degreeDatas>
+      <li>
+        <label>furry</label>
+        <description>{PAWN_nameDef} enjoys dressing up as an animal.</description>
+		<degree>0</degree>
+      </li>
+      <li>
+        <label>fersona furry</label>
+        <description>{PAWN_nameDef} enjoys dressing up as a specific animal. {PAWN_pronoun} will only be happy when wearing a full animal costume.</description>
+		<degree>1</degree>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

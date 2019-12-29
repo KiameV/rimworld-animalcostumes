@@ -1,6 +1,83 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorHelmetMakeableBase">
+		<defName>Apparel_CowHood</defName>
+		<label>Cow Hood</label>
+		<description>A hood for cow-like grazing.</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Apparel/AnimalCostumes/Cow/Hood</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>AnimalCostumes</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>9</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Steel>50</Steel>
+			<Plasteel>5</Plasteel>
+		</costList>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<MaxHitPoints>225</MaxHitPoints>
+			<Mass>2.0</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.6</StuffEffectMultiplierInsulation_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>8</Insulation_Heat>
+			<EquipDelay>2.0</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<TameAnimalChance>0.1</TameAnimalChance>
+			<TrainAnimalChance>0.1</TrainAnimalChance>
+			<AimingDelayFactor>-0.5</AimingDelayFactor>
+			<ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
+			<SocialImpact>0.1</SocialImpact>
+			<PsychicSensitivity>-0.2</PsychicSensitivity>
+			<MedicalSurgerySuccessChance>-0.1</MedicalSurgerySuccessChance>
+			<PlantHarvestYield>0.2</PlantHarvestYield>
+			<ConstructSuccessChance>-0.1</ConstructSuccessChance>
+			<MiningYield>-0.1</MiningYield>
+			<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/AnimalCostumes/Cow/Hood</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Tribal</li>
+				<li>Outlander</li>
+				<li>TribalTrader</li>
+				<li>OutlanderTrader</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<generateCommonality>2</generateCommonality>
+		<CostumeBreed>Cow</CostumeBreed>
+		<CostumeType>Head</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
+	
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorHelmetMakeableBase">
 		<defName>Apparel_TanookiHood</defName>
 		<label>Tanooki Hood</label>
 		<description>A hood for tanooki-like knowledge.</description>
@@ -76,9 +153,12 @@
 			</defaultOutfitTags>
 		</apparel>
 		<generateCommonality>2</generateCommonality>
-	</ThingDef>
+		<CostumeBreed>Tanooki</CostumeBreed>
+		<CostumeType>Head</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
 
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorHelmetMakeableBase">
 		<defName>Apparel_CatHood</defName>
 		<label>Cat Hood</label>
 		<description>The hood for a cat costumes.</description>
@@ -142,9 +222,12 @@
 			</defaultOutfitTags>
 		</apparel>
 		<generateCommonality>2</generateCommonality>
-	</ThingDef>
+		<CostumeBreed>Cat</CostumeBreed>
+		<CostumeType>Head</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
 
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorHelmetMakeableBase">
 		<defName>Apparel_DogHood</defName>
 		<label>Dog Hood</label>
 		<description>The hood for a dog costumes.</description>
@@ -208,5 +291,8 @@
 			</defaultOutfitTags>
 		</apparel>
 		<generateCommonality>2</generateCommonality>
-	</ThingDef>
+		<CostumeBreed>Dog</CostumeBreed>
+		<CostumeType>Head</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
 </Defs>
