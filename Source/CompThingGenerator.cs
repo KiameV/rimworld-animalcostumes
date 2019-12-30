@@ -66,7 +66,6 @@ namespace AnimalCostumes
                 pawn = (parent as Apparel)?.Wearer;
             if (fullness > .99f)
             {
-                Log.Warning("1 " + pawn.Name.ToString());
                 if (pawn.Map != null)
                 {
                     fullness = 0;

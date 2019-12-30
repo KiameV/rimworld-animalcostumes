@@ -132,7 +132,7 @@ namespace AnimalCostumes
         {
             foreach (Apparel a in p.apparel.WornApparel)
             {
-                if (a is AnimalCostume ac && ac.CompGatherable is CompSheddable_AC s)
+                if (a is AnimalCostume ac && ac.CompGatherable is CompShearable_AC s)
                 {
                     if (s.Fullness > 0.85f)
                     {

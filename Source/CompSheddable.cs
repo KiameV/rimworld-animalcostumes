@@ -4,7 +4,7 @@ using Verse;
 
 namespace AnimalCostumes
 {
-    public class CompSheddable_AC : CompMilkable
+    public class CompShearable_AC : CompMilkable
     {
         public bool WasJustShedded = false;
 
@@ -45,11 +45,11 @@ namespace AnimalCostumes
             }
         }
 
-        public new CompProperties_Sheddable_AC Props
+        public new CompProperties_Shearable_AC Props
         {
             get
             {
-                return (CompProperties_Sheddable_AC)base.props;
+                return (CompProperties_Shearable_AC)base.props;
             }
         }
 
@@ -59,7 +59,7 @@ namespace AnimalCostumes
             {
                 return null;
             }
-            return "AnimalCostumes.FurLength".Translate() + ": " + base.Fullness.ToStringPercent();
+            return "WoolGrowth".Translate() + ": " + base.Fullness.ToStringPercent();
         }
 
         public override void PostExposeData()
@@ -111,22 +111,22 @@ namespace AnimalCostumes
             return (found & CostumeType.Head) != 0 && (found & CostumeType.Body) != 0;
         }
 
-        public CompSheddable_AC() { }
+        public CompShearable_AC() { }
     }
 
-    public class CompProperties_Sheddable_AC : CompProperties
+    public class CompProperties_Shearable_AC : CompProperties
     {
-        public int intervalDays = 2;
+        public int intervalDays;
 
-        public int amount = 5;
+        public int amount;
 
         public ThingDef thingDef;
 
         public bool milkFemaleOnly = false;
 
-        public CompProperties_Sheddable_AC()
+        public CompProperties_Shearable_AC()
         {
-            compClass = typeof(CompSheddable_AC);
+            compClass = typeof(CompShearable_AC);
         }
     }
 }

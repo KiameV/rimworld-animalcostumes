@@ -104,7 +104,7 @@
 					<WorkTableEfficiencyFactor>0.15</WorkTableEfficiencyFactor>
 					<WorkTableWorkSpeedFactor>0.15</WorkTableWorkSpeedFactor>
 					<AnimalGatherSpeed>0.1</AnimalGatherSpeed>
-					<WorkSpeedGlobal>0.1<WorkSpeedGlobal>
+					<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
 					<ShootingAccuracyPawn>-20</ShootingAccuracyPawn>
 				</statOffsets>
 			</li>
