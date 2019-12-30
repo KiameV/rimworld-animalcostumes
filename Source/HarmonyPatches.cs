@@ -29,11 +29,14 @@ namespace AnimalCostumes
 
             public static void Postfix(Pawn __instance, ref string __result)
             {
-                foreach (Apparel a in __instance.apparel.WornApparel)
+                if (__instance != null && __instance.apparel != null && __instance.apparel.WornApparel != null)
                 {
-                    if (a is AnimalCostume ac)
+                    foreach (Apparel a in __instance.apparel.WornApparel)
                     {
-                        ac.AddToInspectionString(ref __result);
+                        if (a is AnimalCostume ac)
+                        {
+                            ac.AddToInspectionString(ref __result);
+                        }
                     }
                 }
             }

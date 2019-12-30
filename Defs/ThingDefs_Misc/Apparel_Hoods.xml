@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
 	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorHelmetMakeableBase">
-		<defName>Apparel_SheepHood</defName>
-		<label>Sheep Hood</label>
+		<defName>Apparel_AlpacaHood</defName>
+		<label>Alpaca Hood</label>
 		<description>A hood for a wooly fursuit.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Apparel/AnimalCostumes/Sheep/Hood</texPath>
+			<texPath>Apparel/AnimalCostumes/Alpaca/Hood</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -50,7 +49,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/AnimalCostumes/Sheep/Hood</wornGraphicPath>
+			<wornGraphicPath>Apparel/AnimalCostumes/Alpaca/Hood</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -65,7 +64,7 @@
 			</defaultOutfitTags>
 		</apparel>
 		<generateCommonality>2</generateCommonality>
-		<CostumeBreed>Sheep</CostumeBreed>
+		<CostumeBreed>Alpaca</CostumeBreed>
 		<CostumeType>Head</CostumeType>
 		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
 		<comps>
@@ -134,6 +133,14 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+			  <weight>100</weight>
+			  <only>(154,125,94)</only>
+			</li>
+		  </options>
+		</colorGenerator>
 		<generateCommonality>2</generateCommonality>
 		<CostumeBreed>Insect</CostumeBreed>
 		<CostumeType>Head</CostumeType>

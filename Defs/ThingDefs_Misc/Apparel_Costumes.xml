@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorMachineableBase">
-		<defName>Apparel_SheepCostume</defName>
-		<label>Sheep Costume</label>
-		<description>A fursuit capable of producing wool.</description>
+		<defName>Apparel_AlpacaCostume</defName>
+		<label>Alpaca Costume</label>
+		<description>A fursuit capable of producing wool which will automatically be sheared when it gets to be too long.</description>
 		<graphicData>
-			<texPath>Apparel/AnimalCostumes/Sheep/Body</texPath>
+			<texPath>Apparel/AnimalCostumes/Alpaca/Body</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
@@ -56,7 +56,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/AnimalCostumes/Sheep/Body</wornGraphicPath>
+			<wornGraphicPath>Apparel/AnimalCostumes/Alpaca/Body</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 				<li>Middle</li>
@@ -92,7 +92,7 @@
 			</li>
 		</comps>
 		<generateCommonality>2</generateCommonality>
-		<CostumeBreed>Sheep</CostumeBreed>
+		<CostumeBreed>Alpaca</CostumeBreed>
 		<CostumeType>Body</CostumeType>
 		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
 	</AnimalCostumes.AnimalCostumeDef>
@@ -160,6 +160,14 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+			  <weight>100</weight>
+			  <only>(154,125,94)</only>
+			</li>
+		  </options>
+		</colorGenerator>
 		<comps>
 			<li Class="AnimalCostumes.CompProperties_ThingGenerator_AC">
 				<thingDef>InsectJelly</thingDef>
