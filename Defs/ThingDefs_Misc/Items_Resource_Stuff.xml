@@ -1,53 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="WoolBase">
-    <defName>AnimalCostumes_TanookiFur</defName>
-    <label>tanooki fur</label>
-    <description>The remarkably soft fur of a tanooki.</description>
+    <defName>SheepWool</defName>
+        <label>sheep wool</label>
+     <description>The soft and protective wool of a sheep. Touching it gives humans a sense of saftey and serenity that rivals that of glitterworld textiles.</description>
     <graphicData>
-      <color>(120,60,0)</color>
+      <color>(255,255,255)</color>
     </graphicData>
     <statBases>
       <DeteriorationRate>2.6</DeteriorationRate>
-      <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+      <StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
     </statBases>
     <stuffProps>
-      <color>(120,60,0)</color>
-    </stuffProps>
-  </ThingDef>
-  
-  <ThingDef ParentName="WoolBase">
-    <defName>AnimalCostumes_CatFur</defName>
-    <label>cat fur</label>
-    <description>The remarkably soft fur of a cat.</description>
-    <graphicData>
-      <color>(120,120,0)</color>
-    </graphicData>
-    <statBases>
-      <DeteriorationRate>2.6</DeteriorationRate>
-      <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
-    </statBases>
-    <stuffProps>
-      <color>(120,120,0)</color>
-    </stuffProps>
-  </ThingDef>
-  
-  <ThingDef ParentName="WoolBase">
-    <defName>AnimalCostumes_DogFur</defName>
-    <label>dog fur</label>
-    <description>The remarkably soft fur of a dog.</description>
-    <graphicData>
-      <color>(120,80,0)</color>
-    </graphicData>
-    <statBases>
-      <DeteriorationRate>2.6</DeteriorationRate>
-      <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
-    </statBases>
-    <stuffProps>
-      <color>(120,80,0)</color>
+      <color>(255,255,255)</color>
     </stuffProps>
   </ThingDef>
 </Defs>

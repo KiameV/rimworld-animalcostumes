@@ -1,13 +1,10 @@
-﻿using System;
-using RimWorld;
+﻿using RimWorld;
 using Verse;
 
 namespace AnimalCostumes
 {
-    public class CompSheddable_AC : CompMilkable
+    public class CompThingGenerator_AC : CompMilkable
     {
-        public bool WasJustShedded = false;
-
         protected override bool Active
         {
             get
@@ -45,11 +42,11 @@ namespace AnimalCostumes
             }
         }
 
-        public new CompProperties_Sheddable_AC Props
+        public new CompProperties_ThingGenerator_AC Props
         {
             get
             {
-                return (CompProperties_Sheddable_AC)base.props;
+                return (CompProperties_ThingGenerator_AC)base.props;
             }
         }
 
@@ -59,21 +56,17 @@ namespace AnimalCostumes
             {
                 return null;
             }
-            return "AnimalCostumes.FurLength".Translate() + ": " + base.Fullness.ToStringPercent();
-        }
-
-        public override void PostExposeData()
-        {
-            base.PostExposeData();
-            Scribe_Values.Look<bool>(ref this.WasJustShedded, "wasJustShedded", false);
+            return this.Props.generateLabel.Translate() + ": " + base.Fullness.ToStringPercent();
         }
 
         public override void CompTick()
         {
             base.CompTick();
-            if (fullness > 0.99f)
+            if (!(parent is Pawn pawn))
+                pawn = (parent as Apparel)?.Wearer;
+            if (fullness > .99f)
             {
-                Pawn pawn = parent as Pawn;
+                Log.Warning("1 " + pawn.Name.ToString());
                 if (pawn.Map != null)
                 {
                     fullness = 0;
@@ -86,7 +79,6 @@ namespace AnimalCostumes
                     if (thing.stackCount > 0)
                     {
                         GenPlace.TryPlaceThing(thing, pawn.PositionHeld, pawn.Map, ThingPlaceMode.Near);
-                        WasJustShedded = true;
                     }
                 }
             }
@@ -111,22 +103,22 @@ namespace AnimalCostumes
             return (found & CostumeType.Head) != 0 && (found & CostumeType.Body) != 0;
         }
 
-        public CompSheddable_AC() { }
+        public CompThingGenerator_AC() { }
     }
 
-    public class CompProperties_Sheddable_AC : CompProperties
+    public class CompProperties_ThingGenerator_AC : CompProperties
     {
-        public int intervalDays = 2;
+        public int intervalDays;
 
-        public int amount = 5;
+        public int amount;
+
+        public string generateLabel;
 
         public ThingDef thingDef;
 
-        public bool milkFemaleOnly = false;
-
-        public CompProperties_Sheddable_AC()
+        public CompProperties_ThingGenerator_AC()
         {
-            compClass = typeof(CompSheddable_AC);
+            compClass = typeof(CompThingGenerator_AC);
         }
     }
 }

@@ -74,6 +74,7 @@
   <ItemGroup>
     <Compile Include="AnimalCostume.cs" />
     <Compile Include="AnimalCostumeDef.cs" />
+    <Compile Include="CompThingGenerator.cs" />
     <Compile Include="WorldComponent.cs" />
     <Compile Include="CompSheddable.cs" />
     <Compile Include="CompMilkable.cs" />

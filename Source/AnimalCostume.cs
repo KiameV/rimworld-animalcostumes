@@ -9,26 +9,23 @@ namespace AnimalCostumes
     {
         private bool initialized = false;
         private bool isThingGenerator = false;
-        public List<ThingComp> CompGatherables = null;
+        public ThingComp CompGatherable = null;
 
         public AnimalCostume() { }
 
         public void AddToInspectionString(ref string inspection)
         {
-            if (this.CompGatherables != null && base.Wearer != null && !base.Wearer.Dead)
+            if (this.CompGatherable != null && base.Wearer != null && !base.Wearer.Dead)
             {
                 StringBuilder sb = new StringBuilder(inspection);
-                foreach (CompHasGatherableBodyResource c in this.CompGatherables)
+                string text = CompGatherable.CompInspectStringExtra();
+                if (text != null && text != "")
                 {
-                    string text = c.CompInspectStringExtra();
-                    if (text != null && text != "")
+                    if (sb.Length != 0)
                     {
-                        if (sb.Length != 0)
-                        {
-                            sb.AppendLine();
-                        }
-                        sb.Append(text);
+                        sb.AppendLine();
                     }
+                    sb.Append(text);
                 }
                 inspection = sb.ToString();
             }
@@ -68,10 +65,9 @@ namespace AnimalCostumes
                     {
                         if (c is CompHasGatherableBodyResource)
                         {
-                            c.parent = base.Wearer;
-                            if (CompGatherables == null)
-                                CompGatherables = new List<ThingComp>(2);
-                            CompGatherables.Add(c);
+                            CompGatherable = c;
+                            CompGatherable.parent = base.Wearer;
+                            break;
                         }
                     }
                 }
@@ -81,13 +77,7 @@ namespace AnimalCostumes
 
             if (base.Wearer != null && !base.Wearer.Dead && base.Wearer.IsHashIntervalTick(400))
             {
-                if (this.CompGatherables != null)
-                {
-                    foreach (ThingComp c in this.CompGatherables)
-                    {
-                        c.CompTick();
-                    }
-                }
+                this.CompGatherable?.CompTick();
 
                 if (this.isThingGenerator)
                 {

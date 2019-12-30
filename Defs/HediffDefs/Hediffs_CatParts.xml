@@ -23,7 +23,7 @@
 	</HediffDef>
 	<HediffDef>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>cat eyes</label>
+		<label>cat eye</label>
 		<defName>AnimalCostumes_CatEyes</defName>
 		<description>The fursuit's slitted eyes allow the wearer to see better and are rather enticing to look at.</description>
 		<stages>
@@ -43,7 +43,7 @@
 	
 	<HediffDef>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>cat ears</label>
+		<label>cat ear</label>
 		<defName>AnimalCostumes_CatEars</defName>
 		<description>The fursuit's triangular ears allow the wearer to hear better.</description>
 		<stages>

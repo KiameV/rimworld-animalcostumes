@@ -95,16 +95,10 @@ namespace AnimalCostumes
                     {
                         hasCowHood = true;
                     }
-                    else if (ac.CompGatherables != null)
+                    else if (ac.CompGatherable is CompMilkable_AC m)
                     {
-                        foreach (ThingComp c in ac.CompGatherables)
-                        {
-                            if (c is CompMilkable_AC m)
-                            {
-                                milkable = m;
-                                break;
-                            }
-                        }
+                        milkable = m;
+                        break;
                     }
                 }
             }
@@ -138,27 +132,21 @@ namespace AnimalCostumes
         {
             foreach (Apparel a in p.apparel.WornApparel)
             {
-                if (a is AnimalCostume ac && ac.CompGatherables != null)
+                if (a is AnimalCostume ac && ac.CompGatherable is CompSheddable_AC s)
                 {
-                    foreach (ThingComp c in ac.CompGatherables)
+                    if (s.Fullness > 0.85f)
                     {
-                        if (c is CompSheddable_AC s)
-                        {
-                            if (s.Fullness > 0.85f)
-                            {
-                                return ThoughtState.ActiveAtStage(0);
-                            }
-                            else if (s.WasJustShedded)
-                            {
-                                if (s.Fullness < 15f)
-                                {
-                                    return ThoughtState.ActiveAtStage(1);
-                                }
-                                s.WasJustShedded = false;
-                            }
-                            return ThoughtState.Inactive;
-                        }
+                        return ThoughtState.ActiveAtStage(0);
                     }
+                    else if (s.WasJustShedded)
+                    {
+                        if (s.Fullness < 15f)
+                        {
+                            return ThoughtState.ActiveAtStage(1);
+                        }
+                        s.WasJustShedded = false;
+                    }
+                    return ThoughtState.Inactive;
                 }
             }
             return ThoughtState.Inactive;

@@ -78,7 +78,7 @@ namespace AnimalCostumes
                     fullness = 0;
                     Thing thing = ThingMaker.MakeThing(this.Props.thingDef);
                     thing.stackCount = this.Props.amount;
-                    if (this.HasCowHood())
+                    if (this.HasCowHood(pawn))
                     {
                         thing.stackCount = (int)(thing.stackCount * 1.5f);
                     }
@@ -91,9 +91,8 @@ namespace AnimalCostumes
             }
         }
 
-        public bool HasCowHood()
+        public bool HasCowHood(Pawn pawn)
         {
-            Pawn pawn = parent as Pawn;
             foreach (Apparel a in pawn.apparel.WornApparel)
             {
                 var def = a.def as AnimalCostumeDef;
@@ -108,17 +107,11 @@ namespace AnimalCostumes
 
     public class CompProperties_Milkable_AC : CompProperties
     {
-        public int intervalDays = 2;
+        public int intervalDays;
 
-        public int amount = 5;
+        public int amount;
 
         public ThingDef thingDef;
-
-        public bool milkFemaleOnly = false;
-
-        public ThoughtDef femaleThought = null;
-
-        public ThoughtDef maleThought = null;
 
         public CompProperties_Milkable_AC()
         {

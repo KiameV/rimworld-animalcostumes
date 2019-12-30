@@ -2,7 +2,7 @@
 <Defs>
 	<HediffDef>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>dog eyes</label>
+		<label>dog eye</label>
 		<defName>AnimalCostumes_DogEyes</defName>
 		<description>The fursuit's large round eyes allow the wearer to see better and are very cute.</description>
 		<stages>
@@ -21,7 +21,7 @@
 	</HediffDef>
 	<HediffDef>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>dog ears</label>
+		<label>dog ear</label>
 		<defName>AnimalCostumes_DogEars</defName>
 		<description>The fursuit's attentive ears allow the wearer to hear better.</description>
 		<stages>

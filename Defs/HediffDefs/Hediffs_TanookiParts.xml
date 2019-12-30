@@ -14,6 +14,12 @@
 					<MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
 					<MedicalTendQuality>0.1</MedicalTendQuality>
 				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
 			</li>
 		</stages>
 	</HediffDef>
@@ -27,13 +33,27 @@
 			<li>
 				<statOffsets>
 					<MedicalTendSpeed>0.15</MedicalTendSpeed>
+					<SmoothingSpeed>0.15</SmoothingSpeed>
 					<ConstructionSpeed>0.15</ConstructionSpeed>
-					<SmithingSpeed>0.15</SmithingSpeed>
-					<SmeltingSpeed>0.15</SmeltingSpeed>
-					<ButcheryMechanoidSpeed>0.15</ButcheryMechanoidSpeed>
 					<ResearchSpeed>0.15</ResearchSpeed>
-					<WorkTableWorkSpeedFactor>0.15</WorkTableWorkSpeedFactor>
+					<ConstructSuccessChance>0.15</ConstructSuccessChance>
+					<ImmunityGainSpeed>0.05</ImmunityGainSpeed>
+					<AnimalGatherSpeed>0.1</AnimalGatherSpeed>
 				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
 			</li>
 		</stages>
 	</HediffDef>		

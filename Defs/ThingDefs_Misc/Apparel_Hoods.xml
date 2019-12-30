@@ -1,6 +1,93 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorHelmetMakeableBase">
+		<defName>Apparel_InsectHood</defName>
+		<label>Insect Hood</label>
+		<description>A hood for insect lovers.</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Apparel/AnimalCostumes/Insect/Hood</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>AnimalCostumes</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>9</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Steel>50</Steel>
+			<Plasteel>5</Plasteel>
+		</costList>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<MaxHitPoints>225</MaxHitPoints>
+			<Mass>2.0</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
+			<EquipDelay>6</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicSensitivity>-0.1</ToxicSensitivity>
+			<BedRestEffectiveness>0.1</BedRestEffectiveness>
+			<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+			<PsychicSensitivity>-0.15</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/AnimalCostumes/Insect/Hood</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Tribal</li>
+				<li>Outlander</li>
+				<li>TribalTrader</li>
+				<li>OutlanderTrader</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<generateCommonality>2</generateCommonality>
+		<CostumeBreed>Cow</CostumeBreed>
+		<CostumeType>Head</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+		<comps>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_InsectHeadClaw</hediffDef>
+				<partsToAffect>
+					<li>Head</li>
+				</partsToAffect>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_InsectMandibles</hediffDef>
+				<partsToAffect>
+					<li>Jaw</li>
+				</partsToAffect>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_CompoundEyes</hediffDef>
+				<partsToAffect>
+					<li>Eye</li>
+				</partsToAffect>
+			</li>
+		</comps>
+	</AnimalCostumes.AnimalCostumeDef>
+	
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorHelmetMakeableBase">
 		<defName>Apparel_CowHood</defName>
 		<label>Cow Hood</label>
 		<description>A hood for cow-like grazing.</description>

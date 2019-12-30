@@ -1,6 +1,194 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorMachineableBase">
+		<defName>Apparel_SheepCostume</defName>
+		<label>Insect Costume</label>
+		<description>A fursuit capable of producing wool.</description>
+		<graphicData>
+			<texPath>Apparel/AnimalCostumes/Sheep/Body</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<researchPrerequisite>AnimalCostumes</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<costList>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Steel>150</Steel>
+			<Plasteel>60</Plasteel>
+		</costList>
+		<costStuffCount>250</costStuffCount>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Steel>75</Steel>
+			<Plasteel>15</Plasteel>
+		</costList>
+		<statBases>
+			<WorkToMake>35000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.35</Flammability>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.7</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.7</StuffEffectMultiplierInsulation_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<TameAnimalChance>0.1</TameAnimalChance>
+			<TrainAnimalChance>0.1</TrainAnimalChance>
+			<ToxicSensitivity>-0.1</ToxicSensitivity>
+			<BedRestEffectiveness>0.1</BedRestEffectiveness>
+			<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+			<PsychicSensitivity>-0.15</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/AnimalCostumes/Sheep/Body</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>Tribal</li>
+				<li>Outlander</li>
+				<li>TribalTrader</li>
+				<li>OutlanderTrader</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<comps>
+			<li Class="AnimalCostumes.CompProperties_Sheddable_AC">
+				<thingDef>SheepWool</thingDef>
+				<intervalDays>10</intervalDays>
+				<amount>30</amount>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_DexterousHoovesHand</hediffDef>
+				<partsToAffect>
+					<li>Hand</li>
+				</partsToAffect>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_HoovedFeet</hediffDef>
+				<partsToAffect>
+					<li>Foot</li>
+				</partsToAffect>
+			</li>
+		</comps>
+		<generateCommonality>2</generateCommonality>
+		<CostumeBreed>Cow</CostumeBreed>
+		<CostumeType>Body</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
+
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorMachineableBase">
+		<defName>Apparel_InsectCostume</defName>
+		<label>Insect Costume</label>
+		<description>A costume for insect lovers.</description>
+		<graphicData>
+			<texPath>Apparel/AnimalCostumes/Insect/Body</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<researchPrerequisite>AnimalCostumes</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Steel>150</Steel>
+			<Plasteel>60</Plasteel>
+		</costList>
+		<statBases>
+			<WorkToMake>35000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
+			<EquipDelay>6</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicSensitivity>-0.1</ToxicSensitivity>
+			<BedRestEffectiveness>0.1</BedRestEffectiveness>
+			<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+			<PsychicSensitivity>-0.15</PsychicSensitivity>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/AnimalCostumes/Insect/Body</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>Tribal</li>
+				<li>Outlander</li>
+				<li>TribalTrader</li>
+				<li>OutlanderTrader</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<comps>
+			<li Class="AnimalCostumes.CompProperties_ThingGenerator_AC">
+				<thingDef>InsectJelly</thingDef>
+				<intervalDays>2</intervalDays>
+				<amount>5</amount>
+				<generateLabel>AnimalCostumes.JellyGenerate</generateLabel>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_ArthropodLegs</hediffDef>
+				<partsToAffect>
+					<li>Leg</li>
+				</partsToAffect>
+			</li>
+		</comps>
+		<generateCommonality>2</generateCommonality>
+		<CostumeBreed>Cow</CostumeBreed>
+		<CostumeType>Body</CostumeType>
+		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+	</AnimalCostumes.AnimalCostumeDef>
+	
+	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorMachineableBase">
 		<defName>Apparel_CowCostume</defName>
 		<label>Cow Costume</label>
 		<description>A costume for cow-like grazing.</description>
@@ -380,13 +568,6 @@
 			<li>RewardSpecial</li>
 		</thingSetMakerTags>
 		<generateCommonality>2</generateCommonality>
-		<!--<comps>
-			<li Class="AnimalCostumes.CompProperties_Sheddable_AC">
-				<thingDef>AnimalCostumes_DogFur</thingDef>
-				<intervalDays>15</intervalDays>
-				<amount>40</amount>
-			</li>
-		</comps>-->
 		<comps>
 			<li Class="HediffApparel.CompProperties_HediffApparel">
 				<hediffDef>AnimalCostumes_DigitigradedPaws</hediffDef>
