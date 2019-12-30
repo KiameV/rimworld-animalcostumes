@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>carnivore fangs</label>
+		<defName>AnimalCostumes_AnimalTeethFangs</defName>
+		<description>Ferocious animalistic teeth capable of tearing into flesh.</description>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>teeth</label>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>10.0</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<EatingSpeed>0.25</EatingSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>herbivore teeth</label>
+		<defName>AnimalCostumes_AnimalTeethHerbivore</defName>
+		<description>Flat teeth perfect for grinding grass with.</description>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>teeth</label>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>6.0</power>
+						<cooldownTime>4</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<EatingSpeed>-0.1</EatingSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>herbivore mind</label>
+		<defName>AnimalCostumes_HerbivoreMind</defName>
+		<description>The fursuit gives the wearer knowledge about growing and preparing meals.</description>
+		<stages>
+			<li>
+				<statOffsets>
+					<PlantWorkSpeed>0.2</PlantWorkSpeed>
+					<PlantHarvestYield>0.2</PlantHarvestYield>
+					<FoodPoisonChance>-0.2</FoodPoisonChance>
+					<ForagedNutritionPerDay>0.2</ForagedNutritionPerDay>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>hooved hands</label>
+		<defName>AnimalCostumes_HoovedHands</defName>
+		<description>The fursuit has hooved hands which can cause some tasks to be much harder.</description>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					 <li>
+						<label>hoof</label>
+						<capacities>
+							<li>Blunt</li>
+							<li>Poke</li>
+						</capacities>
+						<power>8</power>
+						<cooldownTime>2</cooldownTime>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<PlantWorkSpeed>0.2</PlantWorkSpeed>
+					<ShootingAccuracyPawn>-20</ShootingAccuracyPawn>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>hooved feet</label>
+		<defName>AnimalCostumes_HoovedFeet</defName>
+		<description>The fursuit has hooved feet which are able to carry more weight.</description>
+		<stages>
+			<li>
+				<statOffsets>
+					<CarryingCapacity>25</CarryingCapacity>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>digitigraded paws</label>
+		<defName>AnimalCostumes_DigitigradedPaws</defName>
+		<description>The fursuit's feet (paws) are designed for the wearer to stand on tip-toes. The posture allows the wearer to run faster.</description>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeDodgeChance>+0.025</MeleeDodgeChance>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

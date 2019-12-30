@@ -43,15 +43,10 @@
 		<equippedStatOffsets>
 			<TameAnimalChance>0.1</TameAnimalChance>
 			<TrainAnimalChance>0.1</TrainAnimalChance>
-			<AimingDelayFactor>-0.5</AimingDelayFactor>
-			<ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
-			<SocialImpact>0.1</SocialImpact>
-			<PsychicSensitivity>-0.2</PsychicSensitivity>
-			<MedicalSurgerySuccessChance>-0.1</MedicalSurgerySuccessChance>
-			<PlantHarvestYield>0.2</PlantHarvestYield>
-			<ConstructSuccessChance>-0.1</ConstructSuccessChance>
-			<MiningYield>-0.1</MiningYield>
-			<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+			<ToxicSensitivity>-0.1</ToxicSensitivity>
+			<BedRestEffectiveness>0.1</BedRestEffectiveness>
+			<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+			<PsychicSensitivity>-0.15</PsychicSensitivity>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -75,6 +70,14 @@
 		<CostumeBreed>Cow</CostumeBreed>
 		<CostumeType>Head</CostumeType>
 		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+		<comps>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_AnimalTeethHerbivore</hediffDef>
+				<partsToAffect>
+					<li>Jaw</li>
+				</partsToAffect>
+			</li>
+		</comps>
 	</AnimalCostumes.AnimalCostumeDef>
 	
 	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorHelmetMakeableBase">
@@ -156,6 +159,20 @@
 		<CostumeBreed>Tanooki</CostumeBreed>
 		<CostumeType>Head</CostumeType>
 		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+		<comps>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_TanookiMind</hediffDef>
+				<partsToAffect>
+					<li>Head</li>
+				</partsToAffect>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_AnimalTeethFangs</hediffDef>
+				<partsToAffect>
+					<li>Jaw</li>
+				</partsToAffect>
+			</li>
+		</comps>
 	</AnimalCostumes.AnimalCostumeDef>
 
 	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorHelmetMakeableBase">
@@ -225,6 +242,26 @@
 		<CostumeBreed>Cat</CostumeBreed>
 		<CostumeType>Head</CostumeType>
 		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+		<comps>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_CatEars</hediffDef>
+				<partsToAffect>
+					<li>Ear</li>
+				</partsToAffect>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_CatEyes</hediffDef>
+				<partsToAffect>
+					<li>Eye</li>
+				</partsToAffect>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_AnimalTeethFangs</hediffDef>
+				<partsToAffect>
+					<li>Jaw</li>
+				</partsToAffect>
+			</li>
+		</comps>
 	</AnimalCostumes.AnimalCostumeDef>
 
 	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorHelmetMakeableBase">
@@ -294,5 +331,25 @@
 		<CostumeBreed>Dog</CostumeBreed>
 		<CostumeType>Head</CostumeType>
 		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
+		<comps>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_DogEars</hediffDef>
+				<partsToAffect>
+					<li>Ear</li>
+				</partsToAffect>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_DogEyes</hediffDef>
+				<partsToAffect>
+					<li>Eye</li>
+				</partsToAffect>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_AnimalTeethFangs</hediffDef>
+				<partsToAffect>
+					<li>Jaw</li>
+				</partsToAffect>
+			</li>
+		</comps>
 	</AnimalCostumes.AnimalCostumeDef>
 </Defs>

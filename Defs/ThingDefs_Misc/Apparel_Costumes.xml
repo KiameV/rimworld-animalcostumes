@@ -45,23 +45,10 @@
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.1</MoveSpeed>
 			<TameAnimalChance>0.1</TameAnimalChance>
 			<TrainAnimalChance>0.1</TrainAnimalChance>
 			<ToxicSensitivity>-0.1</ToxicSensitivity>
-			<ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
-			<MeleeHitChance>-0.5</MeleeHitChance>
-			<SocialImpact>0.1</SocialImpact>
-			<MedicalTendSpeed>-0.1</MedicalTendSpeed>
-			<ConstructionSpeed>-0.1</ConstructionSpeed>
-			<SmithingSpeed>-0.1</SmithingSpeed>
-			<SmeltingSpeed>-0.1</SmeltingSpeed>
-			<ButcheryMechanoidSpeed>0.1</ButcheryMechanoidSpeed>
-			<SmoothingSpeed>-0.1</SmoothingSpeed>
-			<EatingSpeed>-0.1</EatingSpeed>
 			<BedRestEffectiveness>0.1</BedRestEffectiveness>
-			<MiningSpeed>-0.1</MiningSpeed>
-			<PlantWorkSpeed>0.2</PlantWorkSpeed>
 			<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 			<PsychicSensitivity>-0.15</PsychicSensitivity>
 		</equippedStatOffsets>
@@ -94,6 +81,18 @@
 				<thingDef>Milk</thingDef>
 				<intervalDays>1</intervalDays>
 				<amount>6</amount>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_HoovedHands</hediffDef>
+				<partsToAffect>
+					<li>Hand</li>
+				</partsToAffect>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_HoovedFeet</hediffDef>
+				<partsToAffect>
+					<li>Foot</li>
+				</partsToAffect>
 			</li>
 		</comps>
 		<generateCommonality>2</generateCommonality>
@@ -154,21 +153,7 @@
 			<ToxicSensitivity>-0.1</ToxicSensitivity>
 			<ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
 			<MeleeHitChance>-0.1</MeleeHitChance>
-			<SocialImpact>0.1</SocialImpact>
-			<NegotiationAbility>0.1</NegotiationAbility>
-			<MedicalTendSpeed>0.1</MedicalTendSpeed>
-			<ConstructionSpeed>0.1</ConstructionSpeed>
-			<SmithingSpeed>0.1</SmithingSpeed>
-			<SmeltingSpeed>0.1</SmeltingSpeed>
-			<ButcheryMechanoidSpeed>0.1</ButcheryMechanoidSpeed>
-			<SmoothingSpeed>0.1</SmoothingSpeed>
-			<EatingSpeed>0.1</EatingSpeed>
 			<BedRestEffectiveness>0.1</BedRestEffectiveness>
-			<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
-			<ResearchSpeed>0.1</ResearchSpeed>
-			<WorkTableWorkSpeedFactor>0.1</WorkTableWorkSpeedFactor>
-			<MiningSpeed>0.1</MiningSpeed>
-			<PlantWorkSpeed>0.1</PlantWorkSpeed>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 			<PsychicSensitivity>-0.1</PsychicSensitivity>
 		</equippedStatOffsets>
@@ -196,10 +181,17 @@
 			</defaultOutfitTags>
 		</apparel>
 		<comps>
-			<li Class="AnimalCostumes.CompProperties_Sheddable_AC">
-				<thingDef>AnimalCostumes_TanookiFur</thingDef>
-				<intervalDays>15</intervalDays>
-				<amount>40</amount>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_TanookiBody</hediffDef>
+				<partsToAffect>
+					<li>Torso</li>
+				</partsToAffect>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_DigitigradedPaws</hediffDef>
+				<partsToAffect>
+					<li>Foot</li>
+				</partsToAffect>
 			</li>
 		</comps>
 		<generateCommonality>2</generateCommonality>
@@ -253,11 +245,9 @@
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.6</MoveSpeed>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
 			<ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
 			<MeleeHitChance>0.05</MeleeHitChance>
-			<MeleeDodgeChance>0.05</MeleeDodgeChance>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 			<PsychicSensitivity>-0.1</PsychicSensitivity>
 		</equippedStatOffsets>
@@ -287,10 +277,23 @@
 			<li>RewardSpecial</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="AnimalCostumes.CompProperties_Sheddable_AC">
-				<thingDef>AnimalCostumes_CatFur</thingDef>
-				<intervalDays>15</intervalDays>
-				<amount>40</amount>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_CatClaws</hediffDef>
+				<partsToAffect>
+					<li>Hand</li>
+				</partsToAffect>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_DigitigradedPaws</hediffDef>
+				<partsToAffect>
+					<li>Foot</li>
+				</partsToAffect>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_CatTail</hediffDef>
+				<partsToAffect>
+					<li>Torso</li>
+				</partsToAffect>
 			</li>
 		</comps>
 		<CostumeBreed>Cat</CostumeBreed>
@@ -377,11 +380,19 @@
 			<li>RewardSpecial</li>
 		</thingSetMakerTags>
 		<generateCommonality>2</generateCommonality>
-		<comps>
+		<!--<comps>
 			<li Class="AnimalCostumes.CompProperties_Sheddable_AC">
 				<thingDef>AnimalCostumes_DogFur</thingDef>
 				<intervalDays>15</intervalDays>
 				<amount>40</amount>
+			</li>
+		</comps>-->
+		<comps>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_DigitigradedPaws</hediffDef>
+				<partsToAffect>
+					<li>Foot</li>
+				</partsToAffect>
 			</li>
 		</comps>
 		<CostumeBreed>Dog</CostumeBreed>

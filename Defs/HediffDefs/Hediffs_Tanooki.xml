@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>tanooki mind</label>
+		<defName>AnimalCostumes_TanookiMind</defName>
+		<description>The fursuit integrates with the user's mind to give them superior concentration and wisdom.</description>
+		<stages>
+			<li>
+				<statOffsets>
+					<SocialImpact>0.1</SocialImpact>
+					<NegotiationAbility>0.1</NegotiationAbility>
+					<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+					<MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
+					<MedicalTendQuality>0.1</MedicalTendQuality>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>tanooki wits</label>
+		<defName>AnimalCostumes_TanookiBody</defName>
+		<description>The fursuit integrates with the user's body to give them the ability to finish jobs faster.</description>
+		<stages>
+			<li>
+				<statOffsets>
+					<MedicalTendSpeed>0.15</MedicalTendSpeed>
+					<ConstructionSpeed>0.15</ConstructionSpeed>
+					<SmithingSpeed>0.15</SmithingSpeed>
+					<SmeltingSpeed>0.15</SmeltingSpeed>
+					<ButcheryMechanoidSpeed>0.15</ButcheryMechanoidSpeed>
+					<ResearchSpeed>0.15</ResearchSpeed>
+					<WorkTableWorkSpeedFactor>0.15</WorkTableWorkSpeedFactor>
+					<ConstructSuccessChance>0.15</ConstructSuccessChance>
+					<ImmunityGainSpeed>0.05</ImmunityGainSpeed>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>		
+</Defs>
