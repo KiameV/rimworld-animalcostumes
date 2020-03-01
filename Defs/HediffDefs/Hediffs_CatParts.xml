@@ -2,27 +2,6 @@
 <Defs>
 	<HediffDef>
 		<hediffClass>HediffWithComps</hediffClass>
-		<label>cat claws</label>
-		<defName>AnimalCostumes_CatClaws</defName>
-		<description>The fursuit's razer-sharp claws are quite deadly.</description>
-		<comps>
-			<li Class="HediffCompProperties_VerbGiver">
-				<tools>
-					<li>
-						<label>claw</label>
-						<capacities>
-							<li>Scratch</li>
-						</capacities>
-						<power>14.0</power>
-						<cooldownTime>1.6</cooldownTime>
-						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
-					</li>
-				</tools>
-			</li>
-		</comps>
-	</HediffDef>
-	<HediffDef>
-		<hediffClass>HediffWithComps</hediffClass>
 		<label>cat eye</label>
 		<defName>AnimalCostumes_CatEyes</defName>
 		<description>The fursuit's slitted eyes allow the wearer to see better and are rather enticing to look at.</description>

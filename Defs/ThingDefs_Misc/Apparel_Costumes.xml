@@ -32,10 +32,10 @@
 			<WorkToMake>35000</WorkToMake>
 			<MaxHitPoints>300</MaxHitPoints>
 			<Mass>5</Mass>
-			<Flammability>0.35</Flammability>
-			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+			<Flammability>0.65</Flammability>
+			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
 			<Insulation_Cold>20</Insulation_Cold>
 			<EquipDelay>4</EquipDelay>
@@ -74,20 +74,14 @@
 		</apparel>
 		<comps>
 			<li Class="AnimalCostumes.CompProperties_Shearable_AC">
-				<thingDef>SheepWool</thingDef>
+				<thingDef>WoolAlpaca</thingDef>
 				<intervalDays>10</intervalDays>
 				<amount>30</amount>
 			</li>
 			<li Class="HediffApparel.CompProperties_HediffApparel">
-				<hediffDef>AnimalCostumes_DexterousHoovesHand</hediffDef>
+				<hediffDef>AnimalCostumes_BulkyBody</hediffDef>
 				<partsToAffect>
-					<li>Hand</li>
-				</partsToAffect>
-			</li>
-			<li Class="HediffApparel.CompProperties_HediffApparel">
-				<hediffDef>AnimalCostumes_HoovedFeet</hediffDef>
-				<partsToAffect>
-					<li>Foot</li>
+					<li>Torso</li>
 				</partsToAffect>
 			</li>
 		</comps>
@@ -118,14 +112,17 @@
 			<Steel>150</Steel>
 			<Plasteel>60</Plasteel>
 		</costList>
+		<thingCategories>
+		  <li>Apparel</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>35000</WorkToMake>
 			<MaxHitPoints>300</MaxHitPoints>
 			<Mass>5</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
 			<Insulation_Cold>5</Insulation_Cold>
 			<Insulation_Heat>15</Insulation_Heat>
 			<EquipDelay>6</EquipDelay>
@@ -176,6 +173,12 @@
 				<generateLabel>AnimalCostumes.JellyGenerate</generateLabel>
 			</li>
 			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_ArthropodArms</hediffDef>
+				<partsToAffect>
+					<li>Arm</li>
+				</partsToAffect>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
 				<hediffDef>AnimalCostumes_ArthropodLegs</hediffDef>
 				<partsToAffect>
 					<li>Leg</li>
@@ -221,10 +224,10 @@
 			<MaxHitPoints>300</MaxHitPoints>
 			<Mass>5</Mass>
 			<Flammability>0.35</Flammability>
-			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.2</ArmorRating_Heat>
-			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.7</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.7</StuffEffectMultiplierInsulation_Heat>
 			<Insulation_Cold>8</Insulation_Cold>
@@ -270,15 +273,9 @@
 				<amount>6</amount>
 			</li>
 			<li Class="HediffApparel.CompProperties_HediffApparel">
-				<hediffDef>AnimalCostumes_HoovedHands</hediffDef>
+				<hediffDef>AnimalCostumes_BulkyBody</hediffDef>
 				<partsToAffect>
-					<li>Hand</li>
-				</partsToAffect>
-			</li>
-			<li Class="HediffApparel.CompProperties_HediffApparel">
-				<hediffDef>AnimalCostumes_HoovedFeet</hediffDef>
-				<partsToAffect>
-					<li>Foot</li>
+					<li>Torso</li>
 				</partsToAffect>
 			</li>
 		</comps>
@@ -374,12 +371,6 @@
 					<li>Torso</li>
 				</partsToAffect>
 			</li>
-			<li Class="HediffApparel.CompProperties_HediffApparel">
-				<hediffDef>AnimalCostumes_DigitigradedPaws</hediffDef>
-				<partsToAffect>
-					<li>Foot</li>
-				</partsToAffect>
-			</li>
 		</comps>
 		<generateCommonality>2</generateCommonality>
 		<CostumeBreed>Tanooki</CostumeBreed>
@@ -402,6 +393,9 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
 		</recipeMaker>
 		<stuffCategories>
 			<li>Fabric</li>
@@ -465,18 +459,6 @@
 		</thingSetMakerTags>
 		<comps>
 			<li Class="HediffApparel.CompProperties_HediffApparel">
-				<hediffDef>AnimalCostumes_CatClaws</hediffDef>
-				<partsToAffect>
-					<li>Hand</li>
-				</partsToAffect>
-			</li>
-			<li Class="HediffApparel.CompProperties_HediffApparel">
-				<hediffDef>AnimalCostumes_DigitigradedPaws</hediffDef>
-				<partsToAffect>
-					<li>Foot</li>
-				</partsToAffect>
-			</li>
-			<li Class="HediffApparel.CompProperties_HediffApparel">
 				<hediffDef>AnimalCostumes_CatTail</hediffDef>
 				<partsToAffect>
 					<li>Torso</li>
@@ -504,6 +486,9 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
 		</recipeMaker>
 		<stuffCategories>
 			<li>Fabric</li>
@@ -523,8 +508,8 @@
 			<MaxHitPoints>340</MaxHitPoints>
 			<Mass>5</Mass>
 			<Flammability>0.4</Flammability>
-			<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.42</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.5</ArmorRating_Heat>
 			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
@@ -567,16 +552,16 @@
 			<li>RewardSpecial</li>
 		</thingSetMakerTags>
 		<generateCommonality>2</generateCommonality>
+		<CostumeBreed>Dog</CostumeBreed>
+		<CostumeType>Body</CostumeType>
 		<comps>
 			<li Class="HediffApparel.CompProperties_HediffApparel">
-				<hediffDef>AnimalCostumes_DigitigradedPaws</hediffDef>
+				<hediffDef>AnimalCostumes_DogTail</hediffDef>
 				<partsToAffect>
-					<li>Foot</li>
+					<li>Torso</li>
 				</partsToAffect>
 			</li>
 		</comps>
-		<CostumeBreed>Dog</CostumeBreed>
-		<CostumeType>Body</CostumeType>
 		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
 	</AnimalCostumes.AnimalCostumeDef>
 </Defs>

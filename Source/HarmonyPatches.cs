@@ -1,4 +1,4 @@
-﻿using Harmony;
+﻿using HarmonyLib;
 using RimWorld;
 using System;
 using System.Reflection;
@@ -11,7 +11,7 @@ namespace AnimalCostumes
     {
         static HarmonyPatches()
         {
-            var harmony = HarmonyInstance.Create("com.animalcostumes.rimworld.mod");
+            var harmony = new Harmony("com.animalcostumes.rimworld.mod");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
             Log.Message(
                 "AnimalCostumes Harmony Patches:" + Environment.NewLine +

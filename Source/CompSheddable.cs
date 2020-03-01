@@ -4,7 +4,7 @@ using Verse;
 
 namespace AnimalCostumes
 {
-    public class CompShearable_AC : CompMilkable
+    public class CompShearable_AC : CompAnimalCostumeThingGenerator
     {
         public bool WasJustShedded = false;
 
@@ -73,8 +73,8 @@ namespace AnimalCostumes
             base.CompTick();
             if (fullness > 0.99f)
             {
-                Pawn pawn = parent as Pawn;
-                if (pawn.Map != null)
+                var pawn = base.AnimalCostume?.Wearer;
+                if (pawn?.Map != null)
                 {
                     fullness = 0;
                     Thing thing = ThingMaker.MakeThing(this.Props.thingDef);

@@ -1,6 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- Mid tier -->
+  <PawnKindDef Name="OutlanderAnimalCostumeTraderBase" ParentName="OutlanderBase" Abstract="True">
+    <race>Human</race>
+    <defaultFactionType>OutlanderCivil</defaultFactionType>
+    <trader>true</trader>
+    <combatPower>10</combatPower>
+    <isFighter>false</isFighter>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <invNutrition>2.55</invNutrition>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+    </apparelTags>
+    <inventoryOptions>
+      <skipChance>0.70</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>30</min>
+            <max>100</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+	<gearHealthRange>
+      <min>0.5</min>
+      <max>1.2</max>
+    </gearHealthRange>
+    <itemQuality>Good</itemQuality>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>800</min>
+      <max>1000</max>
+    </weaponMoney>
+    <apparelMoney>
+      <min>6000</min>
+      <max>8000</max>
+    </apparelMoney>
+    <techHediffsChance>0.15</techHediffsChance>
+    <techHediffsMoney>
+      <min>800</min>
+      <max>100000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </PawnKindDef>
   
   <PawnKindDef ParentName="OutlanderBase">
     <defName>Town_Guard_Cat</defName>
@@ -85,7 +138,7 @@
     <defName>Town_Trader_Tanooki</defName>
     <label>town trader</label>
     <trader>true</trader>
-    <combatPower>40</combatPower>
+    <combatPower>35</combatPower>
     <isFighter>false</isFighter>
     <gearHealthRange>
       <min>0.5</min>
@@ -139,8 +192,8 @@
       <li>BeltDefensePop</li>
     </apparelTags>
     <apparelMoney>
-      <min>800</min>
-      <max>1800</max>
+      <min>6000</min>
+      <max>6000</max>
     </apparelMoney>
     <apparelRequired>
       <li>Apparel_CatCostume</li>
@@ -151,8 +204,8 @@
       <li>MedievalMeleeDecent</li>
     </weaponTags>
     <weaponMoney>
-      <min>800</min>
-      <max>1300</max>
+      <min>0</min>
+      <max>0</max>
     </weaponMoney>
     <techHediffsChance>0.1</techHediffsChance>
     <techHediffsMoney>
@@ -179,8 +232,8 @@
       <li>BeltDefensePop</li>
     </apparelTags>
     <apparelMoney>
-      <min>800</min>
-      <max>1800</max>
+      <min>6000</min>
+      <max>6000</max>
     </apparelMoney>
     <apparelRequired>
       <li>Apparel_DogCostume</li>
@@ -205,86 +258,41 @@
     </techHediffsTags>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="OutlanderBase">
+  <PawnKindDef ParentName="OutlanderAnimalCostumeTraderBase">
     <defName>Elite_Trader_Tanooki</defName>
-    <label>town trader</label>
-    <trader>true</trader>
+	<label>town trader</label>
     <combatPower>40</combatPower>
-    <isFighter>false</isFighter>
-    <gearHealthRange>
-      <min>0.5</min>
-      <max>1.2</max>
-    </gearHealthRange>
-    <itemQuality>Good</itemQuality>
-    <weaponTags>
-      <li>Gun</li>
-    </weaponTags>
-    <weaponMoney>
-      <min>800</min>
-      <max>1000</max>
-    </weaponMoney>
-    <apparelMoney>
-      <min>800</min>
-      <max>1800</max>
-    </apparelMoney>
     <apparelRequired Inherit="False">
       <li>Apparel_TanookiCostume</li>
 	  <li>Apparel_TanookiHood</li>
 	  <li>Apparel_AnimalCostumeUndergarment</li>
     </apparelRequired>
-    <apparelTags>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
-      <li>BeltDefensePop</li>
-    </apparelTags>
-    <techHediffsChance>0.15</techHediffsChance>
-    <techHediffsMoney>
-      <min>800</min>
-      <max>100000</max>
-    </techHediffsMoney>
-    <techHediffsTags>
-      <li>Advanced</li>
-    </techHediffsTags>
   </PawnKindDef>
-  
-  <PawnKindDef ParentName="OutlanderBase">
+
+  <PawnKindDef ParentName="OutlanderAnimalCostumeTraderBase">
     <defName>Elite_Trader_Cow</defName>
-    <label>town trader</label>
-    <trader>true</trader>
-    <combatPower>40</combatPower>
-    <isFighter>false</isFighter>
-    <gearHealthRange>
-      <min>0.5</min>
-      <max>1.2</max>
-    </gearHealthRange>
-    <itemQuality>Good</itemQuality>
-    <weaponTags>
-      <li>Gun</li>
-    </weaponTags>
-    <weaponMoney>
-      <min>800</min>
-      <max>1000</max>
-    </weaponMoney>
-    <apparelMoney>
-      <min>800</min>
-      <max>1800</max>
-    </apparelMoney>
+	<label>town herder</label>
     <apparelRequired Inherit="False">
       <li>Apparel_CowCostume</li>
 	  <li>Apparel_CowHood</li>
     </apparelRequired>
-    <apparelTags>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
-      <li>BeltDefensePop</li>
-    </apparelTags>
-    <techHediffsChance>0.15</techHediffsChance>
-    <techHediffsMoney>
-      <min>800</min>
-      <max>100000</max>
-    </techHediffsMoney>
-    <techHediffsTags>
-      <li>Advanced</li>
-    </techHediffsTags>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="OutlanderAnimalCostumeTraderBase">
+    <defName>Elite_Trader_Alpaca</defName>
+	<label>town tailer</label>
+    <apparelRequired Inherit="False">
+      <li>Apparel_AlpacaCostume</li>
+	  <li>Apparel_AlpacaHood</li>
+    </apparelRequired>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="OutlanderAnimalCostumeTraderBase">
+    <defName>Elite_Trader_Insect</defName>
+	<label>town miner</label>
+    <apparelRequired Inherit="False">
+      <li>Apparel_InsectCostume</li>
+	  <li>Apparel_InsectHood</li>
+    </apparelRequired>
   </PawnKindDef>
 </Defs>

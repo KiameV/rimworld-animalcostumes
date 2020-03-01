@@ -32,11 +32,11 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<MedicalTendSpeed>0.15</MedicalTendSpeed>
-					<SmoothingSpeed>0.15</SmoothingSpeed>
-					<ConstructionSpeed>0.15</ConstructionSpeed>
-					<ResearchSpeed>0.15</ResearchSpeed>
-					<ConstructSuccessChance>0.15</ConstructSuccessChance>
+					<MedicalTendSpeed>0.1</MedicalTendSpeed>
+					<SmoothingSpeed>0.1</SmoothingSpeed>
+					<ConstructionSpeed>0.1</ConstructionSpeed>
+					<ResearchSpeed>0.1</ResearchSpeed>
+					<ConstructSuccessChance>0.1</ConstructSuccessChance>
 					<ImmunityGainSpeed>0.05</ImmunityGainSpeed>
 					<AnimalGatherSpeed>0.1</AnimalGatherSpeed>
 				</statOffsets>

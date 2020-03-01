@@ -36,7 +36,10 @@
 		<xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[5]/traders</xpath>
 		<value>
 			<Tribal_Trader_Tanooki>0.5</Tribal_Trader_Tanooki>
-			<Tribal_Cheif_Trader_Tanooki>0.25</Tribal_Cheif_Trader_Tanooki>
+			<Tribal_Trader_Cow>0.1</Tribal_Trader_Cow>
+			<Tribal_Trader_Alpaca>0.1</Tribal_Trader_Alpaca>
+			<Tribal_Trader_Insect>0.01</Tribal_Trader_Insect>
+			<Tribal_Cheif_Trader_Tanooki>0.15</Tribal_Cheif_Trader_Tanooki>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -86,7 +89,10 @@
 		<xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[3]/traders</xpath>
 		<value>
 			<Elite_Trader_Tanooki>0.5</Elite_Trader_Tanooki>
-			<Town_Trader_Tanooki>0.25</Town_Trader_Tanooki>
+			<Elite_Trader_Insect>0.05</Elite_Trader_Insect>
+			<Elite_Trader_Cow>0.15</Elite_Trader_Cow>
+			<Elite_Trader_Alpaca>0.15</Elite_Trader_Alpaca>
+			<Town_Trader_Tanooki>0.15</Town_Trader_Tanooki>
 		</value>
 	</Operation>
 	

@@ -67,12 +67,13 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>compound eye</label>
 		<defName>AnimalCostumes_CompoundEyes</defName>
-		<description>The fursuit's eyes are compound causing the user's vision to see in all direcitons. Quite creepy to look at.</description>
+		<description>The fursuit's eyes are compound causing the user's vision to see in all direcitons. Quite creepy to look at. Difficult to aim firearms well.</description>
 		<stages>
 			<li>
 				<statOffsets>
 					<SocialImpact>-0.05</SocialImpact>
 					<CarryingCapacity>10</CarryingCapacity>
+					<ShootingAccuracyPawn>-20</ShootingAccuracyPawn>
 				</statOffsets>
 				<capMods>
 					<li>
@@ -88,18 +89,26 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>arthropod leg</label>
 		<defName>AnimalCostumes_ArthropodLegs</defName>
-		<description>The fursuit's legs are joined oddly allowing the wearer to move faster and carry a little more weight.</description>
+		<description>The fursuit's legs are joined oddly allowing the wearer to carry more weight.</description>
 		<stages>
 			<li>
 				<statOffsets>
-					<CarryingCapacity>25</CarryingCapacity>
+					<CarryingCapacity>50</CarryingCapacity>
 				</statOffsets>
-				<capMods>
-					<li>
-						<capacity>Moving</capacity>
-						<offset>0.05</offset>
-					</li>
-				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>arthropod arm</label>
+		<defName>AnimalCostumes_ArthropodArms</defName>
+		<description>The fursuit's arms are joined oddly making it difficult to use a gun.</description>
+		<stages>
+			<li>
+				<statOffsets>
+					<RangedWeapon_Cooldown>-20</RangedWeapon_Cooldown>
+				</statOffsets>
 			</li>
 		</stages>
 	</HediffDef>

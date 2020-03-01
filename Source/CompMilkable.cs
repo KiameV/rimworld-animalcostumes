@@ -3,7 +3,7 @@ using Verse;
 
 namespace AnimalCostumes
 {
-    public class CompMilkable_AC : CompMilkable
+    public class CompMilkable_AC : CompAnimalCostumeThingGenerator
     {
         public bool WasJustMilked = false;
 
@@ -70,10 +70,10 @@ namespace AnimalCostumes
         public override void CompTick()
         {
             base.CompTick();
-            Pawn pawn = parent as Pawn;
             if (fullness > .99f)
             {
-                if (pawn.Map != null)
+                var pawn = base.AnimalCostume?.Wearer;
+                if (pawn?.Map != null)
                 {
                     fullness = 0;
                     Thing thing = ThingMaker.MakeThing(this.Props.thingDef);

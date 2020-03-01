@@ -10,10 +10,11 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>AnimalCostumes</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<researchPrerequisite>CombatAnimalCostumes</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>9</Crafting>
-			</skillRequirements>
+				<Crafting>8</Crafting>
+          </skillRequirements>
 		</recipeMaker>
 		<stuffCategories>
 			<li>Leathery</li>
@@ -68,6 +69,12 @@
 		<CostumeType>Head</CostumeType>
 		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
 		<comps>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_HerbivoreMind</hediffDef>
+				<partsToAffect>
+					<li>Head</li>
+				</partsToAffect>
+			</li>
 			<li Class="HediffApparel.CompProperties_HediffApparel">
 				<hediffDef>AnimalCostumes_AnimalTeethHerbivore</hediffDef>
 				<partsToAffect>
@@ -238,6 +245,12 @@
 		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
 		<comps>
 			<li Class="HediffApparel.CompProperties_HediffApparel">
+				<hediffDef>AnimalCostumes_HerbivoreMind</hediffDef>
+				<partsToAffect>
+					<li>Head</li>
+				</partsToAffect>
+			</li>
+			<li Class="HediffApparel.CompProperties_HediffApparel">
 				<hediffDef>AnimalCostumes_AnimalTeethHerbivore</hediffDef>
 				<partsToAffect>
 					<li>Jaw</li>
@@ -258,7 +271,7 @@
 		<recipeMaker>
 			<researchPrerequisite>AnimalCostumes</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>9</Crafting>
+				<Crafting>8</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		<stuffCategories>
@@ -353,8 +366,11 @@
 		<recipeMaker>
 			<researchPrerequisite>CombatAnimalCostumes</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>8</Crafting>
+				<Crafting>10</Crafting>
 			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
 		</recipeMaker>
 		<stuffCategories>
 			<li>Fabric</li>
@@ -442,8 +458,11 @@
 		<recipeMaker>
 			<researchPrerequisite>CombatAnimalCostumes</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>9</Crafting>
+				<Crafting>10</Crafting>
 			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
 		</recipeMaker>
 		<stuffCategories>
 			<li>Fabric</li>

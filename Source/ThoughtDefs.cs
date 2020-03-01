@@ -88,14 +88,14 @@ namespace AnimalCostumes
             bool hasCowHood = false;
             foreach (Apparel a in p.apparel.WornApparel)
             {
-                if (a is AnimalCostume ac)
+                var def = a.def as AnimalCostumeDef;
+                if (def != null)
                 {
-                    var def = ac.def as AnimalCostumeDef;
                     if (def.CostumeType == CostumeType.Head && def.CostumeBreed == "Cow")
                     {
                         hasCowHood = true;
                     }
-                    else if (ac.CompGatherable is CompMilkable_AC m)
+                    else if ((a as AnimalCostume).CompThingGenerator is CompMilkable_AC m)
                     {
                         milkable = m;
                         break;
@@ -132,7 +132,7 @@ namespace AnimalCostumes
         {
             foreach (Apparel a in p.apparel.WornApparel)
             {
-                if (a is AnimalCostume ac && ac.CompGatherable is CompShearable_AC s)
+                if (a is AnimalCostume ac && ac.CompThingGenerator is CompShearable_AC s)
                 {
                     if (s.Fullness > 0.85f)
                     {

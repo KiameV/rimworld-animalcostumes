@@ -1,6 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- Mid tier -->
+  <PawnKindDef ParentName="TribalBase" Name="TribalAnimalCostumeTraderBase" Abstract="True">
+    <trader>true</trader>
+    <isFighter>false</isFighter>
+    <combatPower>10</combatPower>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>6000</min>
+      <max>6000</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>100</min>
+      <max>299</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedDecent</li>
+    </weaponTags>
+  </PawnKindDef>
   
   <PawnKindDef ParentName="TribalBase">
     <defName>Tribal_Warrior_Cat</defName>
@@ -74,10 +93,11 @@
     <techHediffsChance>0.15</techHediffsChance>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="Tribal_Hunter">
+  <PawnKindDef ParentName="TribalAnimalCostumeTraderBase">
     <defName>Tribal_Trader_Tanooki</defName>
     <label>trader</label>
     <trader>true</trader>
+    <combatPower>35</combatPower>
     <apparelRequired Inherit="False">
       <li>Apparel_TanookiTail</li>
       <li>Apparel_TuqueTanookiEars</li>
@@ -151,10 +171,10 @@
     <techHediffsChance>0.06</techHediffsChance>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="Tribal_Hunter">
+  <PawnKindDef ParentName="TribalAnimalCostumeTraderBase">
     <defName>Tribal_Cheif_Trader_Tanooki</defName>
-    <label>trader</label>
-    <trader>true</trader>
+	<label>town trader</label>
+    <combatPower>40</combatPower>
     <apparelRequired Inherit="False">
       <li>Apparel_TanookiCostume</li>
 	  <li>Apparel_TanookiHood</li>
@@ -162,13 +182,30 @@
     </apparelRequired>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="Tribal_Hunter">
-    <defName>Tribal_Cheif_Trader_Cow</defName>
-    <label>trader</label>
-    <trader>true</trader>
+  <PawnKindDef ParentName="TribalAnimalCostumeTraderBase">
+    <defName>Tribal_Trader_Cow</defName>
+	<label>town herder</label>
     <apparelRequired Inherit="False">
       <li>Apparel_CowCostume</li>
 	  <li>Apparel_CowHood</li>
+    </apparelRequired>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="TribalAnimalCostumeTraderBase">
+    <defName>Tribal_Trader_Alpaca</defName>
+	<label>town tailer</label>
+    <apparelRequired Inherit="False">
+      <li>Apparel_AlpacaCostume</li>
+	  <li>Apparel_AlpacaHood</li>
+    </apparelRequired>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="TribalAnimalCostumeTraderBase">
+    <defName>Tribal_Trader_Insect</defName>
+	<label>town miner</label>
+    <apparelRequired Inherit="False">
+      <li>Apparel_InsectCostume</li>
+	  <li>Apparel_InsectHood</li>
     </apparelRequired>
   </PawnKindDef>
 </Defs>

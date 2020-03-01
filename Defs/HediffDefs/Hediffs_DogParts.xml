@@ -30,4 +30,24 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+	<HediffDef>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>dog tail</label>
+		<defName>AnimalCostumes_DogTail</defName>
+		<description>The fursuit's bulky (fluffy) tail can counter-balance the wearer as they fire ranged weapons allowing for better accuracy.</description>
+		<stages>
+			<li>
+				<statOffsets>
+					<ShootingAccuracyPawn>4</ShootingAccuracyPawn>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>
