@@ -80,7 +80,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>NobleApparel</researchPrerequisite>
+			<researchPrerequisite>RoyalAnimalTailsAndEars</researchPrerequisite>
 		</recipeMaker>
 		<stuffCategories>
 			<li>Fabric</li>

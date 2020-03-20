@@ -35,4 +35,20 @@ AI Raiders from Tribal and Outlander groups will uses these.
 Do not use with Animal Ears - http://steamcommunity.com/sharedfiles/filedetails/?id=1101938667. Please disable that mod prior to loading this one.
 
 P.S. Yes the actual name of the animal is Tanuki (not Tanooki) which is a japanese raccoon dog. This is homage to SMB3.</description>
+<modDependencies>
+    <li>
+        <packageId>brrainz.harmony</packageId>
+        <displayName>Harmony</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+</modDependencies>
+<modDependencies>
+    <li>
+        <packageId>hediffapparel.rw</packageId>
+        <displayName>Hediff Apparel</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/2010970214</steamWorkshopUrl>
+        <downloadUrl>https://github.com/KiameV/HediffApparel/releases</downloadUrl>
+    </li>
+</modDependencies>
 </ModMetaData>
