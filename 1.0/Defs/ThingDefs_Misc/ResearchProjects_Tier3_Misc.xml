@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>AnimalCostumes</defName>
+		<label>animal costumes</label>
+		<description>Allows for the crafting of animal costumes imbued with animal traits.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>AnimalTailsAndEars</li>
+			<li>MicroelectronicsBasics</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>8</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+</Defs>
