@@ -42,8 +42,6 @@ P.S. Yes the actual name of the animal is Tanuki (not Tanooki) which is a japane
         <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
         <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
     </li>
-</modDependencies>
-<modDependencies>
     <li>
         <packageId>hediffapparel.rw</packageId>
         <displayName>Hediff Apparel</displayName>
