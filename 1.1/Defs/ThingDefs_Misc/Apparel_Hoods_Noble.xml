@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<AnimalCostumes.AnimalCostumeDef ParentName="HatMakeableBase">
-		<defName>Apparel_TanookiEarsRoyal</defName>
+		<defName>Apparel_TanookiEarsNoble</defName>
 		<label>Noble Tanooki Ears</label>
 		<description>A set of royal tanooki ears.</description>
 		<graphicData>
-			<texPath>Apparel/AnimalCostumes/TanookiRoyal/Ears</texPath>
+			<texPath>Apparel/AnimalCostumes/TanookiNoble/Ears</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>RoyalAnimalTailsAndEars</researchPrerequisite>
+			<researchPrerequisite>NobleAnimalTailsAndEars</researchPrerequisite>
 		</recipeMaker>
 		<stuffCategories>
 			<li>Fabric</li>
@@ -56,13 +56,13 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/AnimalCostumes/TanookiRoyal/Ears</wornGraphicPath>
+			<wornGraphicPath>Apparel/AnimalCostumes/TanookiNoble/Ears</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
 			<tags>
 				<li>Royal</li>
-				<li>RoyalTier5</li>
+				<li>RoyalTier2</li>
 			</tags>
 		</apparel>
 		<CostumeBreed>Tanooki</CostumeBreed>
@@ -71,11 +71,11 @@
 	</AnimalCostumes.AnimalCostumeDef>
 
 	<AnimalCostumes.AnimalCostumeDef ParentName="HatMakeableBase">
-		<defName>Apparel_TuqueTanookiEarsRoyal</defName>
+		<defName>Apparel_TuqueTanookiEarsNoble</defName>
 		<label>Noble Tanooki Ears Tuque</label>
 		<description>A set of tanooki ears on a tuque.</description>
 		<graphicData>
-			<texPath>Apparel/AnimalCostumes/TanookiRoyal/Tuque</texPath>
+			<texPath>Apparel/AnimalCostumes/TanookiNoble/Tuque</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
@@ -125,13 +125,13 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/AnimalCostumes/TanookiRoyal/Tuque</wornGraphicPath>
+			<wornGraphicPath>Apparel/AnimalCostumes/TanookiNoble/Tuque</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
 			<tags>
 				<li>Royal</li>
-				<li>RoyalTier5</li>
+				<li>RoyalTier2</li>
 			</tags>
 		</apparel>
 		<CostumeBreed>Tanooki</CostumeBreed>
@@ -140,16 +140,16 @@
 	</AnimalCostumes.AnimalCostumeDef>
 
 	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorHelmetMakeableBase">
-		<defName>Apparel_TanookiHoodRoyal</defName>
-		<label>Royal Tanooki Hood</label>
+		<defName>Apparel_TanookiHoodNoble</defName>
+		<label>Noble Tanooki Hood</label>
 		<description>A hood for tanooki-like knowledge.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
-			<texPath>Apparel/AnimalCostumes/TanookiRoyal/Hood</texPath>
+			<texPath>Apparel/AnimalCostumes/TanookiNoble/Hood</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>RoyalAnimalCostumes</researchPrerequisite>
+			<researchPrerequisite>NobleAnimalCostumes</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
@@ -190,13 +190,13 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/AnimalCostumes/TanookiRoyal/Hood</wornGraphicPath>
+			<wornGraphicPath>Apparel/AnimalCostumes/TanookiNoble/Hood</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
 			<tags>
 				<li>Royal</li>
-				<li>RoyalTier7</li>
+				<li>RoyalTier5</li>
 			</tags>
 		</apparel>
 		<generateCommonality>2</generateCommonality>

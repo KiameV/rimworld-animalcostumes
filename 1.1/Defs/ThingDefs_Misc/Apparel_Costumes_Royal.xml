@@ -1,76 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!--	<AnimalCostumes.AnimalCostumeDef ParentName="ApparelMakeableBase">
-		<defName>Apparel_TanookiTailRoyal</defName>
-		<label>Royal Tanooki Tail</label>
-		<description>A tanooki tail.</description>
-		<graphicData>
-			<texPath>Apparel/AnimalCostumes/Tanooki/Tail</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<recipeMaker>
-			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-			<researchPrerequisite>NobleApparel</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>6</Crafting>
-			</skillRequirements>
-		</recipeMaker>
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
-		<thingCategories>
-			<li>Apparel</li>
-		</thingCategories>
-		<costStuffCount>85</costStuffCount>
-		<costList>
-			<Steel>10</Steel>
-		</costList>
-		<statBases>
-			<WorkToMake>7500</WorkToMake>
-			<MaxHitPoints>200</MaxHitPoints>
-			<Mass>2</Mass>
-			<Flammability>0.6</Flammability>
-			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.15</ArmorRating_Heat>
-			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
-			<Insulation_Cold>0.5</Insulation_Cold>
-			<Insulation_Heat>0.5</Insulation_Heat>
-			<EquipDelay>4</EquipDelay>
-		</statBases>
-		<equippedStatOffsets>
-			<MoveSpeed>0.2</MoveSpeed>
-			<TameAnimalChance>0.01</TameAnimalChance>
-			<TrainAnimalChance>0.01</TrainAnimalChance>
-			<ToxicSensitivity>-0.01</ToxicSensitivity>
-			<ShootingAccuracyPawn>-0.01</ShootingAccuracyPawn>
-			<MeleeHitChance>-0.01</MeleeHitChance>
-			<BedRestEffectiveness>0.01</BedRestEffectiveness>
-			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
-			<PsychicSensitivity>-0.01</PsychicSensitivity>
-		</equippedStatOffsets>
-		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Apparel/AnimalCostumes/TanookiRoyal/Tail</wornGraphicPath>
-			<layers>
-				<li>Middle</li>
-			</layers>
-			<tags>
-				<li>Royal</li>
-				<li>RoyalTier2</li>
-			</tags>
-		</apparel>
-		<generateCommonality>2</generateCommonality>
-		<CostumeBreed>Tanooki</CostumeBreed>
-		<CostumeType>Tail</CostumeType>
-		<thingClass>AnimalCostumes.AnimalCostume</thingClass>
-	</AnimalCostumes.AnimalCostumeDef>
--->
 	<AnimalCostumes.AnimalCostumeDef ParentName="ArmorMachineableBase">
 		<defName>Apparel_TanookiCostumeRoyal</defName>
 		<label>Royal Tanooki Costume</label>
@@ -92,7 +21,7 @@
 			<li>Leathery</li>
 		</stuffCategories>
 		<thingCategories>
-			<li>Apparel</li>
+			<li>ApparelNoble</li>
 		</thingCategories>
 		<costStuffCount>250</costStuffCount>
 		<costList>

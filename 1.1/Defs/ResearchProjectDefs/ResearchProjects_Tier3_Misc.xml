@@ -18,6 +18,24 @@
 		<tab>AnimalCostumeResearchTabDef</tab>
 	</ResearchProjectDef>
 	<ResearchProjectDef>
+		<defName>NobleAnimalCostumes</defName>
+		<label>noble animal costume</label>
+		<description>Allows for the crafting of a royal animal costume imbued with animal traits.</description>
+		<baseCost>100</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>AnimalCostumes</li>
+		</prerequisites>
+		<hiddenPrerequisites>
+			<li>NobleApparel</li>
+			<li>MicroelectronicsBasics</li>
+		</hiddenPrerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>3.5</researchViewX>
+		<researchViewY>4</researchViewY>
+		<tab>AnimalCostumeResearchTabDef</tab>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
 		<defName>RoyalAnimalCostumes</defName>
 		<label>royal animal costume</label>
 		<description>Allows for the crafting of a royal animal costume imbued with animal traits.</description>
@@ -31,8 +49,8 @@
 			<li>MicroelectronicsBasics</li>
 		</hiddenPrerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<researchViewX>3.5</researchViewX>
-		<researchViewY>4</researchViewY>
+		<researchViewX>4</researchViewX>
+		<researchViewY>5</researchViewY>
 		<tab>AnimalCostumeResearchTabDef</tab>
 	</ResearchProjectDef>
 </Defs>
