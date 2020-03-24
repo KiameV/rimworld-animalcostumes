@@ -2,7 +2,7 @@
 <Defs>
 	<AnimalCostumes.AnimalCostumeDef ParentName="HatMakeableBase">
 		<defName>Apparel_TanookiEarsRoyal</defName>
-		<label>Noble Tanooki Ears</label>
+		<label>Royal Tanooki Ears</label>
 		<description>A set of royal tanooki ears.</description>
 		<graphicData>
 			<texPath>Apparel/AnimalCostumes/TanookiRoyal/Ears</texPath>
@@ -72,8 +72,8 @@
 
 	<AnimalCostumes.AnimalCostumeDef ParentName="HatMakeableBase">
 		<defName>Apparel_TuqueTanookiEarsRoyal</defName>
-		<label>Noble Tanooki Ears Tuque</label>
-		<description>A set of tanooki ears on a tuque.</description>
+		<label>Royal Tanooki Ears Tuque</label>
+		<description>A set of royal tanooki ears on a tuque.</description>
 		<graphicData>
 			<texPath>Apparel/AnimalCostumes/TanookiRoyal/Tuque</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
