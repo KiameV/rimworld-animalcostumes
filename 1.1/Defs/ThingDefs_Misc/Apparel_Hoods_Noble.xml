@@ -166,7 +166,6 @@
 			<ComponentIndustrial>2</ComponentIndustrial>
 			<Steel>75</Steel>
 			<Plasteel>10</Plasteel>
-			<Gold>10</Gold>
 		</costList>
 		<statBases>
 			<WorkToMake>15000</WorkToMake>

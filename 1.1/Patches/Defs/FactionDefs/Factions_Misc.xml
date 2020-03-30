@@ -115,47 +115,4 @@
 			<Elite_Guard_Dog>8</Elite_Guard_Dog>
 		</value>
 	</Operation>
-	
-	<!--<Operation Class="PatchOperationConditional">
-		<xpath>Defs/FactionDef[@Name="Empire"]</xpath>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/FactionDef[@Name="Empire"]/pawnGroupMakers/li[1]/options</xpath>
-			<value>
-				<Villager>3</Villager>
-				<Empire_Fighter_Trooper>10</Empire_Fighter_Trooper>
-				<Empire_Fighter_Cataphract>1.5</Empire_Fighter_Cataphract>
-				<Empire_Fighter_Janissary>7</Empire_Fighter_Janissary>
-				<Empire_Fighter_Champion>10</Empire_Fighter_Champion>
-			</value>
-		</match>
-		<success>Always</success>
-	</Operation>
-	
-	<Operation Class="PatchOperationConditional">
-		<xpath>Defs/FactionDef[@Name="Empire"]</xpath>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/FactionDef[@Name="Empire"]/pawnGroupMakers/li[2]/options</xpath>
-			<value>
-				<Empire_Fighter_Trooper>5</Empire_Fighter_Trooper>
-				<Empire_Fighter_Janissary>3.5</Empire_Fighter_Janissary>
-				<Empire_Fighter_Cataphract>2</Empire_Fighter_Cataphract>
-				<Empire_Fighter_Champion>4</Empire_Fighter_Champion>
-			</value>
-		</match>
-		<success>Always</success>
-	</Operation>
-	
-	<Operation Class="PatchOperationConditional">
-		<xpath>Defs/FactionDef[@Name="Empire"]</xpath>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/FactionDef[@Name="Empire"]/pawnGroupMakers/li[3]/options</xpath>
-			<value>
-				<Empire_Fighter_Trooper>5</Empire_Fighter_Trooper>
-				<Empire_Fighter_Janissary>3.5</Empire_Fighter_Janissary>
-				<Empire_Fighter_Cataphract>2</Empire_Fighter_Cataphract>
-				<Empire_Fighter_Champion>4</Empire_Fighter_Champion>
-			</value>
-		</match>
-		<success>Always</success>
-	</Operation>-->
 </Patch>
