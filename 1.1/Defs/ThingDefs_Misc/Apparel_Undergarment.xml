@@ -112,6 +112,7 @@
 			<tags>
 				<li>Royal</li>
 				<li>RoyalTier2</li>
+				<li>RoyalTier5</li>
 			</tags>
 		</apparel>
 		<generateCommonality>0.5</generateCommonality>
@@ -168,7 +169,9 @@
 			</layers>
 			<tags>
 				<li>Royal</li>
+				<li>RoyalTier2</li>
 				<li>RoyalTier5</li>
+				<li>RoyalTier7</li>
 			</tags>
 		</apparel>
 		<generateCommonality>0.5</generateCommonality>

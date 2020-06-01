@@ -51,6 +51,7 @@
 			<WorkTableWorkSpeedFactor>0.01</WorkTableWorkSpeedFactor>
 			<PlantWorkSpeed>0.01</PlantWorkSpeed>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<MeditationFocusStrength>0.05</MeditationFocusStrength>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -80,7 +81,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>RoyalAnimalTailsAndEars</researchPrerequisite>
+			<researchPrerequisite>NobleAnimalTailsAndEars</researchPrerequisite>
 		</recipeMaker>
 		<stuffCategories>
 			<li>Fabric</li>
@@ -101,6 +102,7 @@
 			<Insulation_Cold>0.5</Insulation_Cold>
 			<Insulation_Heat>0.5</Insulation_Heat>
 			<EquipDelay>0.25</EquipDelay>
+			<MeditationFocusStrength>0.05</MeditationFocusStrength>
 		</statBases>
 		<equippedStatOffsets>
 			<TameAnimalChance>0.01</TameAnimalChance>
@@ -181,6 +183,7 @@
 			<Insulation_Cold>5</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2.0</EquipDelay>
+			<MeditationFocusStrength>0.15</MeditationFocusStrength>
 		</statBases>
 		<equippedStatOffsets>
 			<SocialImpact>0.2</SocialImpact>
@@ -195,6 +198,7 @@
 			</layers>
 			<tags>
 				<li>Royal</li>
+				<li>RoyalTier2</li>
 				<li>RoyalTier5</li>
 			</tags>
 		</apparel>
