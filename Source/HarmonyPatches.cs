@@ -13,13 +13,13 @@ namespace AnimalCostumes
         {
             var harmony = new Harmony("com.animalcostumes.rimworld.mod");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
-            Log.Message(
+            /*Log.Message(
                 "AnimalCostumes Harmony Patches:" + Environment.NewLine +
                 "  Prefix: " + Environment.NewLine +
                 "    Pawn_ApparelTracker.Notify_ApparelAdded (Priority.First)" + Environment.NewLine +
                 "    Pawn_ApparelTracker.Notify_ApparelRemoved (Priority.First)" + Environment.NewLine +
                 "  Postfix:" + Environment.NewLine +
-                "    Pawn.GetInspectString");
+                "    Pawn.GetInspectString");*/
         }
 
         [HarmonyPatch(typeof(Pawn), "GetInspectString")]
