@@ -49,7 +49,14 @@ namespace AnimalCostumes
             public static void Postfix(Apparel apparel)
             {
                 if (apparel is AnimalCostume ac)
+                {
+                    CompPawnPowered cpp = apparel.TryGetComp<CompPawnPowered>();
+                    if (cpp != null)
+                    {
+                        cpp.SetRemainingCharges();
+                    }
                     WorldComp.Add(ac);
+                }
             }
         }
 

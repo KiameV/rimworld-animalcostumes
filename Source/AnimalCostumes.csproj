@@ -97,6 +97,7 @@
     <Compile Include="AnimalJumper\CompProperties_PawnPowered.cs" />
     <Compile Include="CompThingGenerator.cs" />
     <Compile Include="AnimalJumper\Verb_Jump.cs" />
+    <Compile Include="NeedUsers\NeedUser.cs" />
     <Compile Include="WorldComponent.cs" />
     <Compile Include="CompSheddable.cs" />
     <Compile Include="CompMilkable.cs" />
