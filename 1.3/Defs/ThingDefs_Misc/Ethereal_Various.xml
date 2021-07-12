@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PawnFlyerBase">
+    <defName>ACPawnJumper</defName>
+    <thingClass>AnimalCostumes.ACPawnJumper</thingClass>
+    <pawnFlyer>
+      <flightDurationMin>0.25</flightDurationMin>
+      <flightSpeed>16</flightSpeed>
+      <flightEffecterDef>ACJumpFlightEffect</flightEffecterDef>
+      <!--<soundLanding>JumpPackLand</soundLanding>-->
+    </pawnFlyer>
+  </ThingDef>
+
+  <EffecterDef>
+    <defName>ACJumpFlightEffect</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+        <scale>0.8~1.2</scale>
+        <spawnLocType>OnSource</spawnLocType>
+        <positionOffset>(0,0,-0.5)</positionOffset>
+        <fleckDef>JumpSmoke</fleckDef>
+        <ticksBetweenMotes>1</ticksBetweenMotes>
+        <maxMoteCount>2</maxMoteCount>
+        <speed>0~1</speed>
+        <angle>170~190</angle>
+        <absoluteAngle>true</absoluteAngle>
+      </li>
+    </children>
+  </EffecterDef>
+
+</Defs>

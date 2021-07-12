@@ -139,7 +139,7 @@ namespace AnimalCostumes
 			{
 				def.pawnFlyer.soundLanding.PlayOneShot(new TargetInfo(base.Position, base.Map));
 			}
-			MoteMaker.ThrowDustPuff(base.DestinationPos + Gen.RandomHorizontalVector(0.5f), base.Map, 2f);
+			FleckMaker.ThrowDustPuff(base.DestinationPos + Gen.RandomHorizontalVector(0.5f), base.Map, 2f);
 		}
 
 		public override void Destroy(DestroyMode mode = DestroyMode.Vanish)
