@@ -53,6 +53,7 @@
 			<PsychicSensitivity>-0.01</PsychicSensitivity>
 		</equippedStatOffsets>
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Torso</li>
 			</bodyPartGroups>
@@ -132,6 +133,7 @@
 			<PsychicSensitivity>-0.1</PsychicSensitivity>
 		</equippedStatOffsets>
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Torso</li>
 			</bodyPartGroups>
@@ -233,6 +235,7 @@
 			<PsychicSensitivity>-0.1</PsychicSensitivity>
 		</equippedStatOffsets>
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Torso</li>
 			</bodyPartGroups>

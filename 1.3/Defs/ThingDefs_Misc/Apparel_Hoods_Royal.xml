@@ -54,8 +54,9 @@
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 		</equippedStatOffsets>
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
-				<li>UpperHead</li>
+				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Apparel/AnimalCostumes/TanookiRoyal/Ears</wornGraphicPath>
 			<layers>
@@ -124,8 +125,9 @@
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 		</equippedStatOffsets>
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
-				<li>UpperHead</li>
+				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Apparel/AnimalCostumes/TanookiRoyal/Tuque</wornGraphicPath>
 			<layers>
@@ -190,6 +192,7 @@
 			<SocialImpact>0.2</SocialImpact>
 		</equippedStatOffsets>
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>

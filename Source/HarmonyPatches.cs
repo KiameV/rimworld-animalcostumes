@@ -70,5 +70,29 @@ namespace AnimalCostumes
                     WorldComp.Remove(ac);
             }
         }
+
+        [HarmonyPatch(typeof(MassUtility), nameof(MassUtility.Capacity))]
+        static class Patch_MassUtility_Capacity
+        {
+            public static void Postfix(ref float __result, Pawn p)
+            {
+                bool body = false, head = false;
+                if (p.RaceProps.Humanlike && p.Faction?.IsPlayerSafe() == true)
+                {
+                    foreach(Apparel a in p.apparel.WornApparel)
+                    {
+                        if (a.def is AnimalCostumeDef d)
+                        {
+                            if (d.CostumeType == CostumeType.Body)
+                                body = true;
+                            else if (d.CostumeType == CostumeType.Head)
+                                head = true;
+                        }
+                    }
+                }
+                if (body && head)
+                    __result += 5;
+            }
+        }
     }
 }

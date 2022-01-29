@@ -48,6 +48,7 @@
 			<SocialImpact>0.2</SocialImpact>
 		</equippedStatOffsets>
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Neck</li>
 				<li>Torso</li>

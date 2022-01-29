@@ -49,6 +49,7 @@
 			<PsychicSensitivity>-0.15</PsychicSensitivity>
 		</equippedStatOffsets>-->
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Neck</li>
 				<li>Torso</li>
@@ -134,6 +135,7 @@
 			<PsychicSensitivity>-0.15</PsychicSensitivity>
 		</equippedStatOffsets>-->
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Neck</li>
 				<li>Torso</li>
@@ -243,6 +245,7 @@
 			<PsychicSensitivity>-0.15</PsychicSensitivity>
 		</equippedStatOffsets>-->
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Neck</li>
 				<li>Torso</li>
@@ -342,6 +345,7 @@
 			<PsychicSensitivity>-0.1</PsychicSensitivity>
 		</equippedStatOffsets>-->
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Neck</li>
 				<li>Torso</li>
@@ -440,6 +444,7 @@
 			<PsychicSensitivity>-0.1</PsychicSensitivity>
 		</equippedStatOffsets>-->
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Neck</li>
 				<li>Torso</li>
@@ -563,6 +568,7 @@
 			<PsychicSensitivity>-0.1</PsychicSensitivity>
 		</equippedStatOffsets>-->
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Neck</li>
 				<li>Torso</li>

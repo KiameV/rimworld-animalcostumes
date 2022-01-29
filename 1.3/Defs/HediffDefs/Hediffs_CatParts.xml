@@ -11,6 +11,10 @@
 					<SocialImpact>0.05</SocialImpact>
 					<ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
 					<AimingDelayFactor>-1</AimingDelayFactor>
+					<MeleeHitChanceOutdoorsDarkOffset>0.15</MeleeHitChanceOutdoorsDarkOffset>
+					<MeleeHitChanceIndoorsDarkOffset>0.15</MeleeHitChanceIndoorsDarkOffset>
+					<MeleeDodgeChanceOutdoorsDarkOffset>0.15</MeleeDodgeChanceOutdoorsDarkOffset>
+					<MeleeDodgeChanceIndoorsDarkOffset>0.15</MeleeDodgeChanceIndoorsDarkOffset>
 				</statOffsets>
 				<capMods>
 					<li>

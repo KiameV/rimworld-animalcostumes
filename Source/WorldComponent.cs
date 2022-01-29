@@ -43,7 +43,7 @@ namespace AnimalCostumes
             }
         }
 
-        private List<AnimalCostume> tempWorn = null;
+        /*private List<AnimalCostume> tempWorn = null;
         public override void ExposeData()
         {
             if (Scribe.mode == LoadSaveMode.Saving)
@@ -69,6 +69,6 @@ namespace AnimalCostumes
                     }
                 }
             }
-        }
+        }*/
     }
 }

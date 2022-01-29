@@ -11,6 +11,8 @@
 					<SocialImpact>0.05</SocialImpact>
 					<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
 					<AimingDelayFactor>-1</AimingDelayFactor>
+					<ShootingAccuracyOutdoorsDarkOffset>0.2</ShootingAccuracyOutdoorsDarkOffset>
+					<ShootingAccuracyIndoorsDarkOffset>0.2</ShootingAccuracyIndoorsDarkOffset>
 				</statOffsets>
 				<capMods>
 					<li>

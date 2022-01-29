@@ -47,6 +47,7 @@
 			<PsychicSensitivity>-0.15</PsychicSensitivity>
 		</equippedStatOffsets>-->
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
@@ -123,6 +124,7 @@
 			<PsychicSensitivity>-0.15</PsychicSensitivity>
 		</equippedStatOffsets>-->
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
@@ -222,6 +224,7 @@
 			<PsychicSensitivity>-0.15</PsychicSensitivity>
 		</equippedStatOffsets>-->
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
@@ -317,6 +320,7 @@
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 		</equippedStatOffsets>-->
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
@@ -411,6 +415,7 @@
 			<PsychicSensitivity>-0.1</PsychicSensitivity>
 		</equippedStatOffsets>-->
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
@@ -509,6 +514,7 @@
 			<PsychicSensitivity>-0.1</PsychicSensitivity>
 		</equippedStatOffsets>-->
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
