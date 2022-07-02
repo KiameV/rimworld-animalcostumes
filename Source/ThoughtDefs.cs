@@ -4,13 +4,13 @@ using Verse;
 namespace AnimalCostumes
 {
     [DefOf]
-    public static class ACThoughtDef
+    public static class ACThoughtDefOf
     {
         public static TraitDef AnimalCostumes_Furry;
 
-        static ACThoughtDef()
+        static ACThoughtDefOf()
         {
-            DefOfHelper.EnsureInitializedInCtor(typeof(TraitDef));
+            DefOfHelper.EnsureInitializedInCtor(typeof(TraitDefOf));
         }
     }
 
@@ -20,7 +20,7 @@ namespace AnimalCostumes
 
         protected override ThoughtState CurrentStateInternal(Pawn p)
         {
-            Trait furryTrait = p.story.traits.GetTrait(ACThoughtDef.AnimalCostumes_Furry);
+            Trait furryTrait = p.story.traits.GetTrait(ACThoughtDefOf.AnimalCostumes_Furry);
             if (furryTrait != null)
             {
                 var bodyPieces = CostumeType.None;
