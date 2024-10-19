@@ -95,10 +95,10 @@ namespace AnimalCostumes
             }
         }
 
-        [HarmonyPatch(typeof(CompReloadable), nameof(CompReloadable.UsedOnce))]
+        [HarmonyPatch(typeof(CompApparelReloadable), nameof(CompApparelReloadable.UsedOnce))]
         static class Patch_CompReloadable_UsedOnce
         {
-            public static bool Prefix(ref CompReloadable __instance)
+            public static bool Prefix(ref CompApparelReloadable __instance)
             {
                 if (__instance is CompPawnPowered cpp) {
                     cpp.UsedOnceNew();

@@ -5,9 +5,9 @@ using Verse;
 
 namespace AnimalCostumes
 {
-	public class CompPawnPowered : CompReloadable
+	public class CompPawnPowered : CompApparelReloadable
 	{
-        private static readonly FieldInfo rcFI = typeof(CompReloadable).GetField("remainingCharges", BindingFlags.Instance | BindingFlags.NonPublic);
+        private static readonly FieldInfo rcFI = typeof(CompApparelReloadable).GetField("remainingCharges", BindingFlags.Instance | BindingFlags.NonPublic);
 
 		public new CompProperties_PawnPowered Props => props as CompProperties_PawnPowered;
 

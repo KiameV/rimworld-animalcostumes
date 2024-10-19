@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef>
+    <defName>AnimalCostumes_WornThoughts</defName>
+    <workerClass>AnimalCostumes.ThoughtWorker_WornThoughts</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>want a fursuit</label>
+        <description>I've always wanted a fursuit.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>cute ears</label>
+        <description>These ears are cute.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+        <baseOpinionOffset>1</baseOpinionOffset>
+      </li>
+      <li>
+        <label>cute tail</label>
+        <description>This tail is cute.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+        <baseOpinionOffset>1</baseOpinionOffset>
+      </li>
+      <li>
+        <label>cute ears and tail</label>
+        <description>I enjoy pretending to be an animal.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+        <baseOpinionOffset>2</baseOpinionOffset>
+      </li>
+      <li>
+        <label>cozy fursuit head</label>
+        <description>It almost feels like i'm an animal.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+        <baseOpinionOffset>2</baseOpinionOffset>
+      </li>
+      <li>
+        <label>cozy fursuit body</label>
+        <description>It almost feels like i'm an animal.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+        <baseOpinionOffset>2</baseOpinionOffset>
+      </li>
+      <li>
+        <label>complete fursuit</label>
+        <description>I am so happy to have a fursuit!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+        <baseOpinionOffset>3</baseOpinionOffset>
+      </li>
+      <li>
+        <label>partial fursona</label>
+        <description>My fursona is coming together.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+        <baseOpinionOffset>1</baseOpinionOffset>
+      </li>
+      <li>
+        <label>fursona</label>
+        <description>My fursona is complete!</description>
+        <baseMoodEffect>8</baseMoodEffect>
+        <baseOpinionOffset>8</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>AnimalCostumes_Milkable</defName>
+    <workerClass>AnimalCostumes.ThoughtWorker_Milkable</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>filling with milk</label>
+        <description>My udder is so full...</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+        <baseOpinionOffset>-1</baseOpinionOffset>
+      </li>
+      <li>
+        <label>milked</label>
+        <description>Men should not be milked!</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+        <baseOpinionOffset>-1</baseOpinionOffset>
+      </li>
+      <li>
+        <label>making milk</label>
+        <description>I feel the milk in my udder...</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+        <baseOpinionOffset>-1</baseOpinionOffset>
+      </li>
+      <li>
+        <label>filling with milk</label>
+        <description>My udder is so full!</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>milked</label>
+        <description>Being milked is intense!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>filling with milk</label>
+        <description>My udder is raelly getting full. It's almost time!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>milked</label>
+        <description>Feels good to get all that milk out!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+        <baseOpinionOffset>1</baseOpinionOffset>
+      </li>
+      <li>
+        <label>making milk</label>
+        <description>I feel the milk in my udder!</description>
+        <baseMoodEffect>1</baseMoodEffect>
+        <baseOpinionOffset>1</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>AnimalCostumes_Shedding</defName>
+    <workerClass>AnimalCostumes.ThoughtWorker_Shedding</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>long fur</label>
+        <description>My fur is getting really long...</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>short fur</label>
+        <description>Feels good to have a short coat of fur!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

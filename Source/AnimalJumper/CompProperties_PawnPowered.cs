@@ -4,7 +4,7 @@ using Verse;
 
 namespace AnimalCostumes
 {
-	public class CompProperties_PawnPowered : CompProperties_Reloadable
+	public class CompProperties_PawnPowered : CompProperties_ApparelReloadable
 	{
 		public float energyUseMultiplier = 1f;
 

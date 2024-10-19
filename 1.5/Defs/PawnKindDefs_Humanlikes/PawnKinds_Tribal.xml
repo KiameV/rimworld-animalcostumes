@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <PawnKindDef ParentName="TribalBase" Name="TribalAnimalCostumeTraderBase" Abstract="True">
+    <trader>true</trader>
+    <isFighter>false</isFighter>
+    <combatPower>10</combatPower>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>6000</min>
+      <max>6000</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>100</min>
+      <max>299</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedDecent</li>
+    </weaponTags>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="TribalBase">
+    <defName>Tribal_Warrior_Cat</defName>
+    <label>cat warrior</label>
+    <combatPower>70</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <canBeSapper>true</canBeSapper>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.2</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>400</min>
+      <max>1000</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>Apparel_CatTail</li>
+      <li>Apparel_TuqueCatEars</li>
+    </apparelRequired>
+    <weaponMoney>
+      <min>600</min>
+      <max>1100</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeDecent</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>100000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+    <initialWillRange>0~1</initialWillRange>
+    <initialResistanceRange>11~18</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="TribalBase" Name="Tribal_Hunter">
+    <defName>Tribal_Hunter_Dog</defName>
+    <label>dog hunter</label>
+    <combatPower>75</combatPower>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.2</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>200</min>
+      <max>900</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>Apparel_DogTail</li>
+      <li>Apparel_TuqueDogEars</li>
+    </apparelRequired>
+    <weaponMoney>
+      <min>600</min>
+      <max>1100</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedDecent</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>100000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>18~28</initialResistanceRange>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="TribalAnimalCostumeTraderBase">
+    <defName>Tribal_Trader_Tanooki</defName>
+    <label>trader</label>
+    <trader>true</trader>
+    <combatPower>35</combatPower>
+    <apparelRequired Inherit="False">
+      <li>Apparel_TanookiTail</li>
+      <li>Apparel_TuqueTanookiEars</li>
+    </apparelRequired>
+    <initialWillRange>3~5</initialWillRange>
+    <initialResistanceRange>12~20</initialResistanceRange>
+  </PawnKindDef>
+
+  <!-- High tier -->
+
+  <PawnKindDef ParentName="TribalBase">
+    <defName>Tribal_CatBerserker</defName>
+    <label>berserker</label>
+    <combatPower>105</combatPower>
+    <canBeSapper>true</canBeSapper>
+    <apparelMoney>
+      <min>800</min>
+      <max>1000</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>Apparel_CatCostume</li>
+      <li>Apparel_CatHood</li>
+	  <li>Apparel_AnimalCostumeUndergarment</li>
+    </apparelRequired>
+    <weaponMoney>
+      <min>800</min>
+      <max>1500</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeAdvanced</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>100000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>14~21</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="TribalBase">
+    <defName>Tribal_DogHeavyArcher</defName>
+    <label>heavy archer</label>
+    <combatPower>110</combatPower>
+    <apparelMoney>
+      <min>800</min>
+      <max>1000</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>Apparel_DogCostume</li>
+      <li>Apparel_DogHood</li>
+      <li>Apparel_AnimalCostumeUndergarment</li>
+    </apparelRequired>
+    <weaponMoney>
+      <min>850</min>
+      <max>1500</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedHeavy</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>100000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.06</techHediffsChance>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>16~24</initialResistanceRange>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="TribalAnimalCostumeTraderBase">
+    <defName>Tribal_Cheif_Trader_Tanooki</defName>
+	<label>town trader</label>
+    <combatPower>40</combatPower>
+    <apparelRequired Inherit="False">
+      <li>Apparel_TanookiCostume</li>
+	  <li>Apparel_TanookiHood</li>
+	  <li>Apparel_AnimalCostumeUndergarment</li>
+    </apparelRequired>
+    <initialWillRange>3~4</initialWillRange>
+    <initialResistanceRange>18~28</initialResistanceRange>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="TribalAnimalCostumeTraderBase">
+    <defName>Tribal_Trader_Cow</defName>
+	<label>town herder</label>
+    <apparelRequired Inherit="False">
+      <li>Apparel_CowCostume</li>
+	  <li>Apparel_CowHood</li>
+    </apparelRequired>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>12~20</initialResistanceRange>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="TribalAnimalCostumeTraderBase">
+    <defName>Tribal_Trader_Alpaca</defName>
+	<label>town tailer</label>
+    <apparelRequired Inherit="False">
+      <li>Apparel_AlpacaCostume</li>
+	  <li>Apparel_AlpacaHood</li>
+    </apparelRequired>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>12~20</initialResistanceRange>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="TribalAnimalCostumeTraderBase">
+    <defName>Tribal_Trader_Insect</defName>
+	<label>town miner</label>
+    <apparelRequired Inherit="False">
+      <li>Apparel_InsectCostume</li>
+	  <li>Apparel_InsectHood</li>
+    </apparelRequired>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>12~20</initialResistanceRange>
+  </PawnKindDef>
+</Defs>

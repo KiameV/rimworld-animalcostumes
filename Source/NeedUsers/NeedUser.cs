@@ -106,11 +106,35 @@ namespace NeedUser
         }
     }
 
-    public class NeedUser_Authority : NeedUser
+    public class NeedUser_Roomsize : NeedUser
     {
         protected override Need GetNeed(Pawn pawn)
         {
-            return pawn.needs.authority;
+            return pawn.needs.roomsize;
+        }
+    }
+
+    public class NeedUser_Learning : NeedUser
+    {
+        protected override Need GetNeed(Pawn pawn)
+        {
+            return pawn.needs.learning;
+        }
+    }
+
+    public class NeedUser_Indoors : NeedUser
+    {
+        protected override Need GetNeed(Pawn pawn)
+        {
+            return pawn.needs.indoors;
+        }
+    }
+
+    public class NeedUser_Energy : NeedUser
+    {
+        protected override Need GetNeed(Pawn pawn)
+        {
+            return pawn.needs.energy;
         }
     }
 }
