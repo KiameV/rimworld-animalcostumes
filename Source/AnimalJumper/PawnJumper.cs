@@ -6,7 +6,7 @@ using Verse.Sound;
 
 namespace AnimalCostumes
 {
-	[DefOf]
+/*	[DefOf]
 	public static class ACThingDefOf
 	{
 		[MayRequireRoyalty]
@@ -113,39 +113,10 @@ namespace AnimalCostumes
 			}
 		}
 
-		protected override void RespawnPawn()
-		{
-			LandingEffects();
-			base.RespawnPawn();
-		}
-
-		public override void Tick()
-		{
-			if (flightEffecter == null && def.pawnFlyer.flightEffecterDef != null)
-			{
-				flightEffecter = def.pawnFlyer.flightEffecterDef.Spawn();
-				flightEffecter.Trigger(this, TargetInfo.Invalid);
-			}
-			else
-			{
-				flightEffecter?.EffectTick(this, TargetInfo.Invalid);
-			}
-			base.Tick();
-		}
-
-		private void LandingEffects()
-		{
-			if (def.pawnFlyer.soundLanding != null)
-			{
-				def.pawnFlyer.soundLanding.PlayOneShot(new TargetInfo(base.Position, base.Map));
-			}
-			FleckMaker.ThrowDustPuff(base.DestinationPos + Gen.RandomHorizontalVector(0.5f), base.Map, 2f);
-		}
-
 		public override void Destroy(DestroyMode mode = DestroyMode.Vanish)
 		{
 			flightEffecter?.Cleanup();
 			base.Destroy(mode);
 		}
-	}
+	}*/
 }

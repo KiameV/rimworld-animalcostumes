@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PreceptDef[defName="IdeoRole_ProductionSpecialist"]/requiredMemes</xpath>
+		<value>
+			<li>Furism</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PreceptDef[defName="AnimalConnection_Strong"]/requiredMemes</xpath>
+		<value>
+			<li>Furism</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PreceptDef[defName="AnimalConnection_Strong"]/associatedMemes</xpath>
+		<value>
+			<li>Furism</li>
+		</value>
+	</Operation>
+</Patch>

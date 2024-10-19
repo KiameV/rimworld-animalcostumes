@@ -17,7 +17,7 @@ namespace AnimalCostumes
 		}
 
 		public void SetRemainingCharges()
-        {
+		{
 			float v = 0;
 			Need rest = this.Wearer?.needs?.rest;
 			if (rest != null && this.Props != null)
@@ -28,8 +28,10 @@ namespace AnimalCostumes
 			rcFI.SetValue(this, Math.Max(0, (int)v));
 		}
 
-		public new void UsedOnce()
+		public void UsedOnceNew()
 		{
+			Log.Warning("UsedOnce");
+			Log.Warning(this.Wearer.needs.rest.CurLevelPercentage + "");
 			this.Wearer.needs.rest.CurLevelPercentage -= Props.ammoCountPerCharge * 0.01f;
 			SetRemainingCharges();
 		}

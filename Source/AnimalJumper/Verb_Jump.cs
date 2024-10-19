@@ -3,7 +3,7 @@ using Verse;
 
 namespace AnimalCostumes
 {
-	class Verb_Jump : RimWorld.Verb_Jump
+	/*class Verb_Jump : RimWorld.Verb_Jump
 	{		
 		protected override bool TryCastShot()
 		{
@@ -21,7 +21,7 @@ namespace AnimalCostumes
             IntVec3 cell = currentTarget.Cell;
 			Map map = base.CasterPawn.Map;
 			ccpp.UsedOnce();
-			PawnFlyer pawnFlyer = PawnFlyer.MakeFlyer(ACThingDefOf.ACPawnJumper, base.CasterPawn, cell);
+			PawnFlyer pawnFlyer = PawnFlyer.MakeFlyer(ThingDefOf.PawnJumper, base.CasterPawn, cell, SoundDefOf.sound);
 			if (pawnFlyer != null)
 			{
 				GenSpawn.Spawn(pawnFlyer, cell, map);
@@ -29,5 +29,5 @@ namespace AnimalCostumes
 			}
 			return false;
 		}
-	}
+	}*/
 }

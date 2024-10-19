@@ -94,5 +94,18 @@ namespace AnimalCostumes
                     __result += 5;
             }
         }
+
+        [HarmonyPatch(typeof(CompReloadable), nameof(CompReloadable.UsedOnce))]
+        static class Patch_CompReloadable_UsedOnce
+        {
+            public static bool Prefix(ref CompReloadable __instance)
+            {
+                if (__instance is CompPawnPowered cpp) {
+                    cpp.UsedOnceNew();
+                    return false;
+                }
+                return true;
+            }
+        }
     }
 }

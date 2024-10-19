@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>AnimalTailsAndEars</defName>
+		<label>animal tails and ears</label>
+		<description>Allows for the crafting of animal tails and ears accessories.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>ComplexClothing</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+		<tab>AnimalCostumeResearchTabDef</tab>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>NobleAnimalTailsAndEars</defName>
+		<label>noble animal ears</label>
+		<description>Allows for the crafting of royal animal ears accessories.</description>
+		<baseCost>100</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>AnimalTailsAndEars</li>
+		</prerequisites>
+		<hiddenPrerequisites>
+			<li>NobleApparel</li>
+		</hiddenPrerequisites>
+		<researchViewX>1.75</researchViewX>
+		<researchViewY>4</researchViewY>
+		<tab>AnimalCostumeResearchTabDef</tab>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>RoyalAnimalTailsAndEars</defName>
+		<label>royal animal ears</label>
+		<description>Allows for the crafting of royal animal ears accessories.</description>
+		<baseCost>100</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>AnimalTailsAndEars</li>
+		</prerequisites>
+		<hiddenPrerequisites>
+			<li>RoyalApparel</li>
+		</hiddenPrerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>5</researchViewY>
+		<tab>AnimalCostumeResearchTabDef</tab>
+	</ResearchProjectDef>
+</Defs>
